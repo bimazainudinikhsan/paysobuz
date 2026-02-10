@@ -1,0 +1,317 @@
+2026-02-09 00:15:23,916 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 00:15:25,365 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 00:15:25,366 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 00:15:25,559 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 00:15:25,561 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'coba', 'fullname': 'Supporter', 'email': 'supporter@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 00:15:25,860 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 00:15:25,862 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/c2528ac0-0511-11f1-9100-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 00:15:36,811 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/c2528ac0-0511-11f1-9100-062dd6ffe3b6
+2026-02-09 00:15:36,949 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/c2528ac0-0511-11f1-9100-062dd6ffe3b6
+2026-02-09 00:15:36,950 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 00:15:36,952 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 00:15:36,957 - DEBUG - JSON: {'sb_token_csrf': 'e0a612f97a8dfda12ff3049fc106d989', 'order_id': 'c2528ac0-0511-11f1-9100-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'qris', 'type_payment': 'qris', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 00:15:37,234 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 00:15:37,235 - DEBUG - Content (prefix):   {"status":true,"csrf_hash":"c355eb6d0674bff844de3593f6a1b5ce","payment_method":"qris","type_payment":"qris","source_payment":"xendit","inv_id":"TRIBE-IDR-260209-C90467E4051111F1AB6E062DD6FFE3B6","redirect":false,"data":{"uuid":"c2528ac0-0511-11f1-9100-062dd6ffe3b6","id":"TRIBE-IDR-260209-C90467E4051111F1AB6E062DD6FFE3B6","qr_id":"qr_e5172647-f05f-40d3-ada8-e8dc67f4750a","payment_link":"","icon":"https://storage.sociabuzz.com/storage/payment/logo/qris.svg","amount":"IDR10,070","qr_string":"0002
+2026-02-09 00:18:23,270 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 00:18:23,406 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 00:18:23,418 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 00:18:23,606 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 00:18:23,608 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'nanda', 'fullname': 'Supporter', 'email': 'supporter@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 00:18:23,933 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 00:18:23,933 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/2c76713c-0512-11f1-b908-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 00:18:45,282 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/2c76713c-0512-11f1-b908-062dd6ffe3b6
+2026-02-09 00:18:45,432 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/2c76713c-0512-11f1-b908-062dd6ffe3b6
+2026-02-09 00:18:45,439 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 00:18:45,449 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 00:18:45,450 - DEBUG - JSON: {'sb_token_csrf': 'c355eb6d0674bff844de3593f6a1b5ce', 'order_id': '2c76713c-0512-11f1-b908-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'qris', 'type_payment': 'qris', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 00:18:45,708 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 00:18:45,709 - DEBUG - Content (prefix):   {"status":true,"csrf_hash":"6fe5b7a9767f3301557a8056ab1b5573","payment_method":"qris","type_payment":"qris","source_payment":"xendit","inv_id":"TRIBE-IDR-260209-395F2CF4051211F18B2A062DD6FFE3B6","redirect":false,"data":{"uuid":"2c76713c-0512-11f1-b908-062dd6ffe3b6","id":"TRIBE-IDR-260209-395F2CF4051211F18B2A062DD6FFE3B6","qr_id":"qr_3f5f335e-3497-4f16-8874-0b83b536e72b","payment_link":"","icon":"https://storage.sociabuzz.com/storage/payment/logo/qris.svg","amount":"IDR10,070","qr_string":"0002
+2026-02-09 00:20:31,131 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 00:20:31,361 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 00:20:31,361 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 00:20:31,546 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 00:20:31,547 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'gopay nanda', 'fullname': 'Supporter', 'email': 'supporter@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 00:20:31,863 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 00:20:31,864 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/78b6c448-0512-11f1-8790-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 00:20:35,221 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/78b6c448-0512-11f1-8790-062dd6ffe3b6
+2026-02-09 00:20:35,361 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/78b6c448-0512-11f1-8790-062dd6ffe3b6
+2026-02-09 00:20:35,363 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 00:20:35,371 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 00:20:35,371 - DEBUG - JSON: {'sb_token_csrf': '6fe5b7a9767f3301557a8056ab1b5573', 'order_id': '78b6c448-0512-11f1-8790-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'gopay', 'type_payment': 'ewallet_id', 'source_payment': 'midtrans', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 00:20:35,583 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 00:20:35,583 - DEBUG - Content (prefix): {"status":true,"csrf_hash":"9eacd58d743f3d55a702d5aadc51d85b","payment_method":"gopay","type_payment":"ewallet_id","source_payment":"midtrans","inv_id":"TRIBE-IDR-260209-7AE2E8C8051211F1BA16062DD6FFE3B6","redirect":false,"data":{"token":"504f3893-aa32-40cf-ab09-96d821be42c5","redirect_url":"https://app.midtrans.com/snap/v4/redirection/504f3893-aa32-40cf-ab09-96d821be42c5"}}
+2026-02-09 00:21:50,682 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/78b6c448-0512-11f1-8790-062dd6ffe3b6
+2026-02-09 00:21:50,854 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/78b6c448-0512-11f1-8790-062dd6ffe3b6
+2026-02-09 00:21:50,862 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 00:21:50,868 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 00:21:50,869 - DEBUG - JSON: {'sb_token_csrf': '9eacd58d743f3d55a702d5aadc51d85b', 'order_id': '78b6c448-0512-11f1-8790-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'gopay', 'type_payment': 'ewallet_id', 'source_payment': 'midtrans', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 00:21:51,104 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 00:21:51,110 - DEBUG - Content (prefix): {"status":true,"csrf_hash":"de264ec50e439be8241530dba4a43372","payment_method":"gopay","type_payment":"ewallet_id","source_payment":"midtrans","inv_id":"TRIBE-IDR-260209-A7E4B824051211F19069062DD6FFE3B6","redirect":false,"data":{"token":"6e2e96c1-2416-40cf-9da9-e9b3a86d596c","redirect_url":"https://app.midtrans.com/snap/v4/redirection/6e2e96c1-2416-40cf-9da9-e9b3a86d596c"}}
+2026-02-09 04:23:11,160 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 04:23:11,322 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 04:23:11,322 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 04:23:11,481 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 04:23:11,481 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'Debug Test API', 'fullname': 'Debug User', 'email': 'debug@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 04:23:12,005 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 04:23:12,006 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/5f513ed0-0534-11f1-998d-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 04:23:34,773 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 04:23:34,926 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 04:23:34,927 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 04:23:35,084 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 04:23:35,085 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'Debug Test API', 'fullname': 'Debug User', 'email': 'debug@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 04:23:35,619 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 04:23:35,619 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/6d64e6e8-0534-11f1-af9a-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 04:23:35,623 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/6d64e6e8-0534-11f1-af9a-062dd6ffe3b6
+2026-02-09 04:23:35,817 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/6d64e6e8-0534-11f1-af9a-062dd6ffe3b6
+2026-02-09 04:23:35,818 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 04:23:35,819 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 04:23:35,821 - DEBUG - JSON: {'sb_token_csrf': 'b26c6e152a4e6014cf6bbff76f0b87e6', 'order_id': '6d64e6e8-0534-11f1-af9a-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'qris', 'type_payment': 'qris', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 04:23:36,090 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 04:23:36,091 - DEBUG - Content (prefix):   {"status":true,"csrf_hash":"9b1858c6ef4a1bf69287bc39db4f4f96","payment_method":"qris","type_payment":"qris","source_payment":"xendit","inv_id":"TRIBE-IDR-260209-6D9A6E44053411F1A33F062DD6FFE3B6","redirect":false,"data":{"uuid":"6d64e6e8-0534-11f1-af9a-062dd6ffe3b6","id":"TRIBE-IDR-260209-6D9A6E44053411F1A33F062DD6FFE3B6","qr_id":"qr_6a1a14f9-a43a-46b4-8c07-9dbbe33da313","payment_link":"","icon":"https://storage.sociabuzz.com/storage/payment/logo/qris.svg","amount":"IDR10,070","qr_string":"0002
+2026-02-09 04:23:36,572 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/6d64e6e8-0534-11f1-af9a-062dd6ffe3b6
+2026-02-09 04:23:36,767 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/6d64e6e8-0534-11f1-af9a-062dd6ffe3b6
+2026-02-09 04:23:36,767 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 04:23:36,769 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 04:23:36,770 - DEBUG - JSON: {'sb_token_csrf': '9b1858c6ef4a1bf69287bc39db4f4f96', 'order_id': '6d64e6e8-0534-11f1-af9a-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'gopay', 'type_payment': 'ewallet_id', 'source_payment': 'midtrans', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 04:23:36,996 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 04:23:36,998 - DEBUG - Content (prefix): {"status":true,"csrf_hash":"4a86e01bb3a28ca380602a1dfcd350ba","payment_method":"gopay","type_payment":"ewallet_id","source_payment":"midtrans","inv_id":"TRIBE-IDR-260209-6E2B11CE053411F19564062DD6FFE3B6","redirect":false,"data":{"token":"685c0cc7-77f5-4358-a8ce-24a978416a95","redirect_url":"https://app.midtrans.com/snap/v4/redirection/685c0cc7-77f5-4358-a8ce-24a978416a95"}}
+2026-02-09 04:24:17,692 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 04:24:18,002 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 04:24:18,002 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 04:24:18,155 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 04:24:18,156 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'Debug Test API', 'fullname': 'Debug User', 'email': 'debug@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 04:24:18,681 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 04:24:18,681 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/870f75e0-0534-11f1-b159-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 04:24:18,686 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/870f75e0-0534-11f1-b159-062dd6ffe3b6
+2026-02-09 04:24:18,880 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/870f75e0-0534-11f1-b159-062dd6ffe3b6
+2026-02-09 04:24:18,882 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 04:24:18,884 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 04:24:18,884 - DEBUG - JSON: {'sb_token_csrf': '643478b2b3a11cf8464cfe2f41a1307e', 'order_id': '870f75e0-0534-11f1-b159-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'qris', 'type_payment': 'qris', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 04:24:19,586 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 04:24:19,586 - DEBUG - Content (prefix):   {"status":true,"csrf_hash":"c9833555348dbdee468af18c78805739","payment_method":"qris","type_payment":"qris","source_payment":"xendit","inv_id":"TRIBE-IDR-260209-87576116053411F1A04D062DD6FFE3B6","redirect":false,"data":{"uuid":"870f75e0-0534-11f1-b159-062dd6ffe3b6","id":"TRIBE-IDR-260209-87576116053411F1A04D062DD6FFE3B6","qr_id":"qr_e3c607e8-57c3-4c7c-92db-a9e39b38eec7","payment_link":"","icon":"https://storage.sociabuzz.com/storage/payment/logo/qris.svg","amount":"IDR10,070","qr_string":"0002
+2026-02-09 05:08:04,847 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 05:08:05,001 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 05:08:05,010 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 05:08:05,187 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 05:08:05,189 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'Debug Test API', 'fullname': 'Debug User', 'email': 'debug@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 05:08:05,702 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 05:08:05,703 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/a4d68ac2-053a-11f1-8346-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 05:08:05,706 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/a4d68ac2-053a-11f1-8346-062dd6ffe3b6
+2026-02-09 05:08:05,913 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/a4d68ac2-053a-11f1-8346-062dd6ffe3b6
+2026-02-09 05:08:05,913 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 05:08:05,923 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 05:08:05,926 - DEBUG - JSON: {'sb_token_csrf': '0c752c589823c2c53871e3039df50b13', 'order_id': 'a4d68ac2-053a-11f1-8346-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'qris', 'type_payment': 'qris', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 05:08:06,218 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 05:08:06,220 - DEBUG - Content (prefix):   {"status":true,"csrf_hash":"b50e6057433aef3f416e98313bc869ba","payment_method":"qris","type_payment":"qris","source_payment":"xendit","inv_id":"TRIBE-IDR-260209-A510CE9E053A11F19CC7062DD6FFE3B6","redirect":false,"data":{"uuid":"a4d68ac2-053a-11f1-8346-062dd6ffe3b6","id":"TRIBE-IDR-260209-A510CE9E053A11F19CC7062DD6FFE3B6","qr_id":"qr_58a60491-52db-4876-9155-76a84cab9796","payment_link":"","icon":"https://storage.sociabuzz.com/storage/payment/logo/qris.svg","amount":"IDR10,070","qr_string":"0002
+2026-02-09 05:35:35,790 - DEBUG - REQUEST GET https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 05:35:35,946 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/tribe
+2026-02-09 05:35:35,947 - DEBUG - Content (prefix):     <!DOCTYPE html>
+<html lang="en">
+
+<head translate="no">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>Bima Ikhsan | SociaBuzz TRIBE</title>
+    <meta name="description" content="" />
+    <meta property="og:description" content="" />
+    <meta property="og:image" content="https://storage.sociabuzz.com/storage/img/favicon/favico
+2026-02-09 05:35:36,106 - DEBUG - REQUEST POST https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 05:35:36,107 - DEBUG - Data: {'sb_token_csrf': 'fe762680afd8f1ea475afc203622a23e', 'currency': 'IDR', 'amount': 10000, 'qty': '1', 'support_duration': '30', 'note': 'Debug Test API', 'fullname': 'Debug User', 'email': 'debug@example.com', 'is_agree': '1', 'years18': '1', 'is_vote': '0', 'is_voice': '0', 'is_mediashare': '0', 'is_gif': '0', 'is_sound': '0', 'vote_id': '', 'ms_maxtime': '', 'start_from': '0', 'ms_starthour': '0', 'ms_startminute': '0', 'ms_startsecond': '0', 'spin_check': '0', 'prev_url': 'https://sociabuzz.com/bimaikhsan/tribe', 'hide_email': '0', 'is_tiktok': '0', 'tiktok_duration': '0', 'is_instagram': '0', 'instagram_duration': '0', 'wishlist_id': '', 'quickpay': '0'}
+2026-02-09 05:35:36,639 - DEBUG - RESPONSE 200 https://sociabuzz.com/bimaikhsan/donate/get-form-queue
+2026-02-09 05:35:36,640 - DEBUG - Content (prefix):   {"success":"true","token":"fe762680afd8f1ea475afc203622a23e","validates":[],"content":{"redirect":"https:\/\/sociabuzz.com\/payment\/x\/7cdac430-053e-11f1-be4e-062dd6ffe3b6","expired_at":3600,"data":""}}
+2026-02-09 05:35:36,643 - DEBUG - REQUEST GET https://sociabuzz.com/payment/x/7cdac430-053e-11f1-be4e-062dd6ffe3b6
+2026-02-09 05:35:36,858 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/x/7cdac430-053e-11f1-be4e-062dd6ffe3b6
+2026-02-09 05:35:36,861 - DEBUG - Content (prefix): <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no"
+        />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="-1" />
+        <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate" />
+        <meta name="format-detection" content="telephone=no">
+        <link rel="sh
+2026-02-09 05:35:36,864 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 05:35:36,864 - DEBUG - JSON: {'sb_token_csrf': 'b4a51f4d38482b2af03f873c40715218', 'order_id': '7cdac430-053e-11f1-be4e-062dd6ffe3b6', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'qris', 'type_payment': 'qris', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 05:35:37,152 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 05:35:37,154 - DEBUG - Content (prefix):   {"status":true,"csrf_hash":"8aea6c484e26151af2fc74291e2dd560","payment_method":"qris","type_payment":"qris","source_payment":"xendit","inv_id":"TRIBE-IDR-260209-7D1548BC053E11F180F4062DD6FFE3B6","redirect":false,"data":{"uuid":"7cdac430-053e-11f1-be4e-062dd6ffe3b6","id":"TRIBE-IDR-260209-7D1548BC053E11F180F4062DD6FFE3B6","qr_id":"qr_eb871a19-d4a8-4503-9a97-d9c3d9a6f602","payment_link":"","icon":"https://storage.sociabuzz.com/storage/payment/logo/qris.svg","amount":"IDR10,070","qr_string":"0002
+2026-02-09 07:15:17,467 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 07:15:17,468 - DEBUG - JSON: {'sb_token_csrf': 'mock_csrf_token_payment', 'order_id': '123', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'dana', 'type_payment': 'ewallet_id', 'source_payment': 'midtrans', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 07:15:17,523 - DEBUG - RESPONSE (Error reading content)
+2026-02-09 07:15:17,587 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 07:15:17,600 - DEBUG - JSON: {'sb_token_csrf': 'mock_csrf_token_payment', 'order_id': '123', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'ovo', 'type_payment': 'ewallet_id', 'source_payment': 'midtrans', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 07:15:18,530 - DEBUG - RESPONSE (Error reading content)
+2026-02-09 17:06:02,117 - DEBUG - REQUEST POST https://sociabuzz.com/payment/send/create
+2026-02-09 17:06:02,118 - DEBUG - JSON: {'sb_token_csrf': 'mock_csrf_token', 'order_id': 'test-id', 'final_currency': 'IDR', 'currency_def': 'IDR', 'payment_method': 'bca', 'type_payment': 'bank_transfer', 'source_payment': 'xendit', 'country': 'ID', 'country_pay': 'Indonesia'}
+2026-02-09 17:06:02,118 - DEBUG - RESPONSE 200 https://sociabuzz.com/payment/send/create
+2026-02-09 17:06:02,120 - DEBUG - Content (prefix): <MagicMock name='mock.post().text.__getitem__()' id='1667626866048'>

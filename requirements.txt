@@ -1,0 +1,10 @@
+requests
+selenium
+webdriver_manager
+colorama
+beautifulsoup4
+undetected-chromedriver
+setuptools
+python-telegram-bot
+python-dotenv
+qrcode[pil]

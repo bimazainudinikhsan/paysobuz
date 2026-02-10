@@ -1,0 +1,137 @@
+{
+  "timestamp": 1770732301.2871468,
+  "balance_info": {
+    "balance": 6650,
+    "total_saldo": 0,
+    "success": true,
+    "raw_response": {
+      "success": true,
+      "data": "<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link tabs\" id=\"saldo-tab-btn\" data-toggle=\"tab\" href=\"#saldo-tab\" role=\"tab\"\n\t\t\t\t\taria-controls=\"saldo\" aria-selected=\"true\">Saldo</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link tabs\" id=\"transaction-tab-btn\" data-toggle=\"tab\" href=\"#transaction-tab\" role=\"tab\"\n\t\t\t\t\taria-controls=\"transaction\" aria-selected=\"false\">Transaksi</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link tabs\" id=\"penarikan-tab-btn\" data-toggle=\"tab\" href=\"#penarikan-tab\" role=\"tab\"\n\t\t\t\t\taria-controls=\"penarikan\" aria-selected=\"false\">Penarikan</a>\n\t\t\t\t</li>",
+      "balance": 6650,
+      "totalSaldo": 0
+    }
+  },
+  "history": {
+    "success": true,
+    "total": 25,
+    "limit": 10,
+    "transactions": [
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from Supporter",
+        "date": "10 Februari 2026 - 20:56 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from Supporter - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from Supporter",
+        "date": "10 Februari 2026 - 20:46 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from Supporter - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from Supporter",
+        "date": "10 Februari 2026 - 18:55 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from Supporter - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from Supporter",
+        "date": "10 Februari 2026 - 18:05 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from Supporter - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from Supporter",
+        "date": "10 Februari 2026 - 17:28 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from Supporter - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from 8094929215 - Tvioll Aszz",
+        "date": "10 Februari 2026 - 15:22 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from 8094929215 - Tvioll Aszz - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from 8186092784 - ????????????????????????????",
+        "date": "10 Februari 2026 - 15:14 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from 8186092784 - ???????????????????????????? - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from 7230535933 - Akun Samp**' 16",
+        "date": "10 Februari 2026 - 13:42 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from 7230535933 - Akun Samp**' 16 - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from 7230535933 - Akun Samp**' 16",
+        "date": "10 Februari 2026 - 13:14 WIB",
+        "amount": "+Rp950",
+        "text": "TRIBE - Bima Ikhsan - Support from 7230535933 - Akun Samp**' 16 - +Rp950"
+      },
+      {
+        "title": "TRIBE - Bima Ikhsan - Support from 8544643617 - Akun Samp** 17",
+        "date": "10 Februari 2026 - 12:33 WIB",
+        "amount": "+Rp9.500",
+        "text": "TRIBE - Bima Ikhsan - Support from 8544643617 - Akun Samp** 17 - +Rp9.500"
+      }
+    ],
+    "raw_html": "<div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from Supporter\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 20:56 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from Supporter\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 20:46 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from Supporter\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 18:55 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from Supporter\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 18:05 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from Supporter\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 17:28 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from 8094929215 - Tvioll Aszz\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 15:22 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from 8186092784 - ????????????????????????????\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 15:14 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from 7230535933 - Akun Samp**' 16\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 13:42 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from 7230535933 - Akun Samp**' 16\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 13:14 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp950</div>\n\t\t\t\t\t\t</div><div class=\"transaction__item\">\n\t\t\t\t\t\t<div class=\"transaction__itemLeft\">\n\t\t\t\t\t\t\t<div class=\"transaction__item__title \">\n\t\t\t\t\t\t\t\tTRIBE - Bima Ikhsan - Support from 8544643617 - Akun Samp** 17\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div class=\"transaction__item__date\">\n\t\t\t\t\t\t\t\t10 Februari 2026 - 12:33 WIB\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"transaction__item__amt \">+Rp9.500</div>\n\t\t\t\t\t\t</div>"
+  },
+  "pending": {
+    "success": true,
+    "total": 0,
+    "limit": 10,
+    "data": []
+  },
+  "withdrawals": {
+    "success": true,
+    "total": 7,
+    "limit": 10,
+    "data": [
+      {
+        "title": "10 Februari 2026",
+        "date": "Sudah ditransfer (10 Februari 2026)",
+        "amount": "-Rp14.250",
+        "text": "10 Februari 2026 - -Rp14.250"
+      },
+      {
+        "title": "09 Februari 2026",
+        "date": "Sudah ditransfer (09 Februari 2026)",
+        "amount": "-Rp29.450",
+        "text": "09 Februari 2026 - -Rp29.450"
+      },
+      {
+        "title": "09 Februari 2026",
+        "date": "Sudah ditransfer (09 Februari 2026)",
+        "amount": "-Rp9.500",
+        "text": "09 Februari 2026 - -Rp9.500"
+      },
+      {
+        "title": "09 Februari 2026",
+        "date": "Sudah ditransfer (09 Februari 2026)",
+        "amount": "-Rp9.500",
+        "text": "09 Februari 2026 - -Rp9.500"
+      },
+      {
+        "title": "09 Februari 2026",
+        "date": "Sudah ditransfer (09 Februari 2026)",
+        "amount": "-Rp9.500",
+        "text": "09 Februari 2026 - -Rp9.500"
+      },
+      {
+        "title": "09 Februari 2026",
+        "date": "Sudah ditransfer (09 Februari 2026)",
+        "amount": "-Rp28.500",
+        "text": "09 Februari 2026 - -Rp28.500"
+      },
+      {
+        "title": "09 Februari 2026",
+        "date": "Sudah ditransfer (09 Februari 2026)",
+        "amount": "-Rp19.000",
+        "text": "09 Februari 2026 - -Rp19.000"
+      }
+    ]
+  }
+}

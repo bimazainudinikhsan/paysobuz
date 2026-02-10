@@ -1,0 +1,1909 @@
+<!DOCTYPE html>
+<html lang="id" translate="no">
+    <head translate="no">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <link rel="shortcut icon" href="https://storage.sociabuzz.com/storage/img/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="57x57" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://storage.sociabuzz.com/storage/img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="https://storage.sociabuzz.com/storage/img/favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://storage.sociabuzz.com/storage/img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="https://storage.sociabuzz.com/storage/img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://storage.sociabuzz.com/storage/img/favicon/favicon-16x16.png">
+        <!-- <link rel="manifest" href="manifest.json"> -->
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="https://storage.sociabuzz.com/storage/img/favicon//ms-icon-144x144.png">
+
+        <title>Saldo | SociaBuzz Pro</title>
+
+        <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" />
+        <link href="https://fastly.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://storage.sociabuzz.com/storage/css/main/language-v3_new.css" />
+
+                <!-- using cdn becasue tiktok icon wasnot loading in my local versio -->
+
+        <!-- <link rel="stylesheet" href="css/main.css" /> -->
+                                   <link rel="stylesheet" href="https://storage.sociabuzz.com/storage/profile/css/prod.css?v=1770591137" />
+                            
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-30424380-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-30424380-1');
+        </script>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-QKTHG0R05D"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-QKTHG0R05D');
+        </script>
+        <style>
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            .fade {
+                transition: opacity .3s ease, transform .3s ease;
+            }
+            .select2-container--default .select2-selection--single .select2-selection__rendered{
+                line-height: 34px;
+            }
+            .select2-container .select2-selection--single{
+                height: 34px;
+            }
+            .select2-container--default .select2-selection--single .select2-selection__arrow{
+                height: 34px;
+            }
+            .select2-container .select2-selection--single .select2-selection__rendered{
+                padding-left: 1rem;
+            }
+
+            .hidden{
+                display: none !important;
+            }
+
+            .transaction-pro{
+                padding-bottom:0.7rem;
+                margin-bottom: 3rem;
+            }
+
+            .outline-card{
+                padding: 2rem;
+            }
+            .trumbowyg-editor.trumbowyg-reset-css{
+                color:#000;
+            }
+
+            .sb-pro-header-wrapper header {
+                position: -webkit-sticky;
+                position: sticky;
+                top: 0;
+                z-index: 999;
+            }
+
+            .sb-pro-header-wrapper .navbar {
+                background: white;
+                height: 55px;
+                font-family: "Open Sans", sans-serif;
+                --font-size-eleven: 0.967rem;
+                box-shadow: 0px 1px 0px #00000029;
+                flex-flow: row nowrap;
+                justify-content: flex-start;
+                padding: 8px 16px;
+                padding-right: 20px;
+            }
+
+            .sb-pro-header-wrapper nav .header-pro-logo {
+                height: 39px;
+                width: 39px;
+                max-height: unset;
+                object-fit: contain;                
+            }
+
+            .sb-pro-header-wrapper nav .nav-link {
+                font-size: 16px !important;
+                color: black;
+                position: relative;
+                height: 2.5rem;
+                display: flex;
+                align-items: center;
+            }
+
+            .sb-pro-header-wrapper nav .nav-link:hover {
+                color: #76cc11;
+            }
+
+            .sb-pro-header-wrapper nav .nav-item {
+                padding-right: 4px !important;
+                padding-left: 4px !important;
+            }
+
+            .sb-pro-header-wrapper nav .nav-item:last-of-type {
+                padding-right: 0 !important;
+            }
+
+            .sb-pro-header-wrapper nav .nav-item:last-of-type .nav-link {
+                padding-right: 0 !important;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-menu {
+                display: none;
+                border-radius: 15px;
+                padding: 8px 0;
+                max-width: 270px;
+                min-width: 215px;
+                border: 1px solid #d9d9d9 !important;
+                overflow-y: auto;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-menu.show {
+                display: block !important;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-item {
+                padding: 8px 16px !important;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-item:active{
+                background-color: #e9ecef !important;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-menu .nav-link {
+                height: auto;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-menu .nav-link:hover {
+                color: black;
+            }
+
+            .sb-pro-header-wrapper nav .dropdown-item .text {
+                margin-left: 11.2px;
+                font-size: 16px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .sb-pro-header-wrapper .menu-text {
+                max-width: 72px;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                margin-left: 8px !important;
+            }
+
+            @media (max-width: 768px) {
+                .sb-pro-header-wrapper .navbar-nav {
+                    flex-direction: row;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .sb-pro-header-wrapper .navbar-nav .dropdown-menu {
+                    position: absolute;
+                }
+            }
+
+            @media (max-width: 786px) {
+                .sb-pro-header-wrapper header nav .dropdown-menu:not(#dropdown-language) {
+                    display: none !important;
+                    border: 1px solid #d9d9d9 !important;
+                }
+
+                .sb-pro-header-wrapper nav .dropdown-menu.show:not(#dropdown-language) {
+                    display: block !important;
+                }
+
+                .sb-pro-header-wrapper .dropdown-menu {
+                    display: none !important;
+                    border: 1px solid #d9d9d9 !important;
+                    padding: 8px 0 !important;
+                    margin: 0 !important;
+                    min-width: 215px !important;
+                    max-width: 270px !important;
+                }
+
+                /* ketika show */
+                .sb-pro-header-wrapper .dropdown-menu.show {
+                    display: block !important;
+                }
+
+                .sb-pro-header-wrapper .dropdown-menu {
+                    right: 0 !important;
+                    left: auto !important;
+                }
+
+                .sb-pro-header-wrapper .nav-link,
+                .sb-pro-header-wrapper .dropdown-item .text {
+                    font-size: 16px !important;
+                }
+            }
+
+            @media (max-width: 400px) {
+                .sb-pro-header-wrapper .navbar-expand-md .navbar-nav .nav-link {
+                    padding-left: 0;
+                }
+            }
+
+            @media (max-width: 768px) {
+                .sb-pro-header-wrapper .navbar-expand-md .navbar-nav .nav-link {
+                    padding-right: 8px;
+                    padding-left: 8px;
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <!---------------- Navbar--------------------->
+        <div class="sb-pro-header-wrapper">
+            <header>
+                                    <nav class="navbar navbar-expand-md">
+                        <a class="navbar-brand" href="https://sociabuzz.com">
+                            <img
+                                src="https://storage.sociabuzz.com/storage/account/image/logo.png"
+                                class="header-pro-logo d-block"
+                                alt="Sociabuzz Pro Logo"
+                        /></a>
+                        <div class="nav-bar-link ml-auto d-flex align-items-center">
+                            <div class="navigation-bar">
+                                <div class="">
+                                    <ul class="navbar-nav mr-auto align-items-center">
+                                        
+                                        <li class="nav-item px-1 active">
+                                                                                            <a
+                                                    class="nav-link"
+                                                    data-toggle="dropdown"
+                                                    href="#"
+                                                    role="button"
+                                                    aria-haspopup="true"
+                                                    aria-expanded="false"
+                                                    ><i class="fas fa-bars"> </i
+                                                    ><span class="ml-2 menu-text">Menu</span></a
+                                                >
+                                                <div style="width:240px"
+                                                    class="dropdown-menu dropdown-menu-right"
+                                                >
+                                                    <a
+                                                        class="dropdown-item nav-link"
+                                                        href="https://sociabuzz.com/proaccount/profile"
+                                                    >
+                                                        <span class="icon">
+                                                            <i
+                                                                class="fa-solid fa-circle-user fa-fw"
+                                                            ></i>
+                                                        </span>
+                                                        <span class="text"
+                                                            >Profil</span
+                                                        ></a
+                                                    >
+                                                    <a
+                                                        class="dropdown-item nav-link"
+                                                        href="https://sociabuzz.com/proaccount/transaction"
+                                                    >
+                                                        <span class="icon">
+                                                            <i
+                                                                class="fa-solid fa-wallet fa-fw"
+                                                            ></i>
+                                                        </span>
+                                                        <span class="text"
+                                                            >Saldo</span
+                                                        ></a
+                                                    >
+
+                                                
+                                                    <a class="dropdown-item nav-link"
+                                                        href="https://sociabuzz.com/proaccount/referral/program" >
+                                                        <span class="icon">
+                                                            <i
+                                                                class="fa-solid fa-user-plus fa-fw"
+                                                            ></i>
+                                                        </span>
+                                                        <span class="text"
+                                                            >Program Referral</span
+                                                        >
+                                                    </a>
+
+                                                    
+                                                    <a
+                                                        class="dropdown-item nav-link"
+                                                        href="https://sociabuzz.com/proaccount/info"
+                                                    >
+                                                        <span class="icon">
+                                                            <i
+                                                                class="fa-solid fa-info-circle fa-fw"
+                                                            ></i>
+                                                        </span>
+                                                        <span class="text"
+                                                            >Akun</span
+                                                        ></a
+                                                    >
+                                                                                                        <a
+                                                        class="dropdown-item nav-link"
+                                                        href="https://sociabuzz.com/proaccount/points"
+                                                    >
+                                                        <span class="icon">
+                                                            <i
+                                                                class="fa-solid fa-check-to-slot fa-fw"
+                                                            ></i>
+                                                        </span>
+                                                        <span class="text">Get Points & Win Prizes</span></a
+                                                    >
+                                                                                                        <a
+                                                        class="dropdown-item nav-link"
+                                                        href="https://sociabuzz.com/proaccount/logout"
+                                                    >
+                                                        <span class="icon">
+                                                            <i
+                                                                class="fa-solid fa-right-from-bracket fa-fw"
+                                                            ></i>
+                                                        </span>
+                                                        <span class="text">Log out</span></a
+                                                    >
+                                                </div>
+                                                                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                            </header>
+        <div>
+                <!---------------- Navbar--------------------->
+        <main>
+                <section class="sbWrapper">
+      <div id="page" class="hidden">
+        <ul class="nav nav-tabs d-flex justify-content-center" id="saldoTransaksiTab" role="tablist"></ul>
+        <div class="tab-content" id="saldoTransaksiTabContent">
+          <div class="tab-pane fade" id="saldo-tab" role="tabpanel" aria-labelledby="saldo-tab">
+                          <div class="outline-card bg-light font-ten">
+                <b class="text-uppercase">Pencairan Instan:</b>
+                <ul class="mb-0" >
+                  <li >
+                    Uang <b>langsung cair</b> ke bank/ewallet Anda setelah melakukan penarikan saldo (hari apapun & jam berapapun)
+                  </li>
+                                      <li>Untuk keamanan akun Anda, batas pencairan instan per hari maksimal  Rp5.000.000</li>
+                                                                              <li>Aktifkan <b>2FA</b> di halaman <a class="text-primary" href="https://sociabuzz.com/proaccount/info" target="_blank"><u>Akun</u></a></li>
+                                        <li>Selama 2FA belum aktif, setiap melakukan pencairan instan, Anda perlu klik link konfirmasi yang kami kirim lewat email</li>
+                                                        <li>Jika sudah melewati batas pencairan instan per hari, tetap bisa melakukan penarikan berkali-kali dan jumlah berapapun, namun akan dicairkan 1 hari kerja sejak tanggal penarikan (hari kerja tidak termasuk: Sabtu, Minggu, hari libur, tanggal merah, cuti bersama)</li>
+                                  </ul>
+              </div>
+                        <!-- Saldo goes here -->
+            <div class="outline-card">
+              <div class="caption">Saldo</div>
+              <h2>Rp<span class="balance"></span></h2>
+              <div class="mt-4 mb-4">
+                <strong>Cairkan ke:</strong>
+                <ul class="account-details">
+                  <li>
+                                        <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio1" checked name="type" value="bank" class="custom-control-input" />
+                      <label class="custom-control-label" for="customRadio1">
+                        <span>Bank</span>
+                                                <button class="btn btn-outline-blue btn-rounded btn-sm edit-account iosmodal" data-type="bank">
+                          Edit
+                        </button>
+                                              </label>
+                    </div>
+                    <div>
+                                            <!-- <span class="text-muted">Biaya penarikan Rp599 (<a class="text-primary" href="https://sociabuzz.freshdesk.com/support/solutions/articles/67000723828-list-bank-dengan-biaya-penarikan-rp599" target="_blank"><u>list bank</u></a>)</span><br> -->
+                      <div class="text-danger hidden" style="margin-bottom: unset;line-height: normal;">Dikarenakan sedang ada gangguan layanan transfer bank BI FAST, kami sarankan untuk sementara melakukan penarikan saldo ke ewallet</div> 
+                      <div >
+                        Klik "Edit" untuk isi data                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio2"  name="type" value="gopay"  class="custom-control-input" />
+                      <label class="custom-control-label" for="customRadio2">
+                        <span>GOPAY</span>
+                                                <button class="btn btn-outline-blue btn-rounded btn-sm edit-account iosmodal"  data-type="gopay">
+                          Edit
+                        </button>
+                                              </label>
+                    </div>
+                    <div>
+                                            <div >
+                        Klik "Edit" untuk isi data                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="dana" name="type" value="dana"  class="custom-control-input" />
+                      <label class="custom-control-label" for="dana">
+                        <span>Dana</span>
+                                              </label>
+                    </div>
+                    <div>
+                                            <div  style="line-height:normal; margin-top:5px;" >
+                                                  <span class="text-muted">Biaya penarikan Rp100</span><br>
+                                                <div id='account-info-dana' data-account='083854076411'>083854******* | DANA DNID BIMX ZAIXXXXX IKHXXX</div><small class='text-danger'>Hanya bisa diubah setiap 90 hari sekali | Update terakhir: 09-Feb-2026 | Bisa diubah per: 11-Mei-2026</small>                      </div>
+                    </div>
+                  </li>
+
+                                    <li>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="customRadio3" name="type" value="ovo"  class="custom-control-input" />
+                      <label class="custom-control-label" for="customRadio3">
+                        <span>OVO</span>
+                                                <button class="btn btn-outline-blue btn-rounded btn-sm edit-account iosmodal"  data-type="ovo">
+                          Edit
+                        </button>
+                                              </label>
+                    </div>
+                    <div>
+                                            <div >
+                        Klik "Edit" untuk isi data                      </div>
+                    </div>
+                    
+                  </li>
+                  
+                                    <li>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="shopeepay" name="type" value="shopeepay"  class="custom-control-input" />
+                      <label class="custom-control-label" for="shopeepay">
+                        <span>ShopeePay</span>
+                                                <button class="btn btn-outline-blue btn-rounded btn-sm edit-account iosmodal"  data-type="shopeepay">
+                          Edit
+                        </button>
+                                              </label>
+                    </div>
+                    <div>
+                                            <div >
+                        Klik "Edit" untuk isi data                      </div>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="custom-control custom-radio">
+                      <input type="radio" id="linkaja" name="type" value="linkaja"  class="custom-control-input" />
+                      <label class="custom-control-label" for="linkaja">
+                        <span>LinkAja</span>
+                                                <button class="btn btn-outline-blue btn-rounded btn-sm edit-account iosmodal"  data-type="linkaja">
+                          Edit
+                        </button>
+                                              </label>
+                    </div>
+                    <div>
+                                            <div >
+                        Klik "Edit" untuk isi data                      </div>
+                    </div>
+                  </li>
+                  
+                </ul>
+              </div>
+              <button type="button" class="btn btn-primary btn-rounded btn-block mt-2 mb-sm-4 iosmodal" id="btn-action" style="cursor: pointer;">
+                Lanjut
+              </button>
+                          </div>
+
+            <!-- Saldo goes here -->
+          </div>
+          <div class="tab-pane fade" id="transaction-tab" role="tabpanel" aria-labelledby="transaction-tab">
+            <div class="outline-card hidden">
+              <div class="form-group hidden">
+                <select class="form-control" id="transactionSelect">
+                  <option>Semua​</option>
+                  <option value="">Profile Name Lorem Ipsum Do...</option>
+                  <option value="">Profile Name Lorem Ipsum</option>
+                  <option value="">Profile Name Lorem Ipsum Do..</option>
+                </select>
+              </div>
+              <div class="caption">Total sejak awal</div>
+              <h2 class="twelvebold">Rp<span class="totalSaldo"></span> </h2>
+              <!-- <a id="export-excel" href="https://sociabuzz.com/proaccount/transaction/downloadExcel" class="eightpx grey-bf mt-3 d-flex"><u>Download data ke excel</u></a> -->
+            </div>
+            
+            <div class="transaction transaction-pro" id="data-history">
+              <div class="text-center mb-2">
+                <i class="fa fa-spinner fa-spin"></i>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" class="mt-3 mb-5">
+              <ul class="pagination justify-content-center"></ul>
+            </nav>
+          </div>
+          <div class="tab-pane fade" id="penarikan-tab" role="tabpanel" aria-labelledby="penarikan-tab">
+            <div class="outline-card  bg-light font-ten">
+              Panduan & FAQ tentang pencairan saldo bisa dibaca <a target="_blank" class="text-primary" href="https://sociabuzz.freshdesk.com/support/solutions/folders/67000064246"><u>di sini</u></a>.
+            </div>
+            <div class="transaction transaction-pro" id="data-withdraw">
+              <div class="text-center mb-2">
+                <i class="fa fa-spinner fa-spin"></i>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" class="mt-3 mb-5">
+              <ul class="pagination justify-content-center"></ul>
+            </nav>
+          </div>
+          <div class="tab-pane fade" id="inprocess-tab" role="tabpanel" aria-labelledby="inprocess-tab">
+            
+            <div class="outline-card  bg-light font-ten">
+            <b><span class="text-danger">Penjelasan mengenai transaksi yang "Dalam Proses" bisa dibaca</span> <a href="https://sociabuzz.freshdesk.com/support/solutions/articles/67000701263-penjelasan-mengenai-halaman-dalam-proses-" target="_blank" rel="noopener noreferrer" style="text-decoration:underline;color:#007bff">di sini</a>.</b>
+            </div>
+
+            
+            <div class="transaction transaction-pro" id="data-inprocess">
+              <div class="text-center mb-2">
+                <i class="fa fa-spinner fa-spin"></i>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" class="mt-3 mb-5">
+              <ul class="pagination justify-content-center"></ul>
+            </nav>
+          </div>
+          <div class="tab-pane fade" id="pending-tab" role="tabpanel" aria-labelledby="pending-tab">
+            <div class="outline-card  bg-light font-ten">
+              Transaksi yang "Pending" berarti pekerjaan masih berlangsung / belum dinyatakan selesai oleh klien, sehingga penghasilan belum masuk Saldo. Jika pekerjaan susah selesai namun klien belum konfirmasi pekerjaan selesai, <a target="_blank" class="text-primary" href="https://sociabuzz.freshdesk.com/support/solutions/articles/67000072368-klien-belum-konfirmasi-pekerjaan-selesai-apa-yang-perlu-dilakukan-"><u>baca informasi ini</u></a>.
+            </div>
+            <div class="transaction transaction-pro" id="data-pending">
+              <div class="text-center mb-2">
+                <i class="fa fa-spinner fa-spin"></i>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" class="mt-3 mb-5">
+              <ul class="pagination justify-content-center"></ul>
+            </nav>
+          </div>
+          <div class="tab-pane fade" id="pending-shop-tab" role="tabpanel" aria-labelledby="pending-shop-tab">
+            <div class="outline-card  bg-light font-ten text-center" style="overflow-wrap: anywhere;">
+              <b>Penghasilan Anda ditahan sementara hingga pembeli mengonfirmasi bahwa apa yang dibeli sudah diterima.</b> Segera hubungi pembeli dan berikan apa yang dibeli. Setelah semuanya selesai klik "Sudah diterima pembeli" di halaman <a class="text-primary" href="https://sociabuzz.com/proaccount/shop/history/771572"><u>https://sociabuzz.com/proaccount/shop/history/771572</u></a>
+            </div>
+            <div class="transaction transaction-pro" id="data-pending-shop">
+              <div class="text-center mb-2">
+                <i class="fa fa-spinner fa-spin"></i>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" class="mt-3 mb-5">
+              <ul class="pagination justify-content-center"></ul>
+            </nav>
+          </div>
+          <div class="tab-pane fade" id="waiting-tab" role="tabpanel" aria-labelledby="waiting-tab">
+            <div class="outline-card  bg-light font-ten">
+              Transaksi yang ”Menunggu Payment" berarti pekerjaan sudah dinyatakan selesai oleh klien, namun SociaBuzz masih menunggu pelunasan pembayaran dari klien, sehingga penghasilan belum masuk Saldo. Penjelasan selengkapnya bisa dibaca <a href="https://sociabuzz.freshdesk.com/support/solutions/articles/67000162220-job-sudah-selesai-tapi-menunggu-payment-" class="text-primary" target="_blank"><u>di sini</u></a>.
+            </div>
+            <div class="transaction transaction-pro" id="data-waiting">
+              <div class="text-center mb-2">
+                <i class="fa fa-spinner fa-spin"></i>
+              </div>
+            </div>
+            <nav aria-label="Page navigation example" class="mt-3 mb-5">
+              <ul class="pagination justify-content-center"></ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+        .cursor-pointer{
+          cursor: pointer;
+        }
+        .btn-primary.disabled, .btn-primary:disabled{
+            background-color: #76cc11;
+            border-color: #76cc11;
+        }
+        .hidden{
+            display: none !important;
+        }
+        .select2-container .select2-selection--single{
+          height:38px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__rendered{
+          line-height:38px;
+        }
+        .select2-container--default .select2-selection--single .select2-selection__arrow{
+          height:38px;
+        }
+
+        .btn-outline-primary.disabled, .btn-outline-primary:disabled{
+          color:#76cc11;
+        }
+        .btn-outline-primary.disabled:hover, .btn-outline-primary:disabled:hover{
+          color:#fff;
+        }
+        .iosmodal{
+          cursor: pointer;
+        }
+
+        #flashModal h2, #flashModal p{ 
+          line-height:1.5 
+        }
+        #flashModal .success-icon{ 
+          margin-bottom:0 
+        }
+        #flashModal .modal-dialog{ 
+          max-width:380px 
+        }
+    </style>
+      <!-- saldoCarikan Modal-1  -->
+  <div class="modal fade" id="saldoCarikan1" data-keyboard="false" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <form id="form-penarikan">
+            <input type="hidden" name="sb_token_csrf" value="b4e156a97ea65203b6355a8d6ecf935c" />            <div class="modal-heading">
+              <h2 class="text-left">Jumlah yang dicairkan</h2>
+              <div class="form-group mb-3">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="basic-addon1">Rp</span>
+                </div>
+                <input id="amount" type="text" name="amount" onkeypress="if (isNaN( String.fromCharCode(event.keyCode)) || event.keyCode == 32) return false;" class="form-control"/>
+              </div>
+              <span class="help-control text-danger text-left" id="text-error-amount"></span>
+              </div>
+            </div>
+
+            <div class="payment-methods">
+              <div class="payment-description--light">
+                <p class="mb-0">
+                  Biaya transaksi <span id="type-transaksi"></span>
+                  <br />
+                  <strong id="fee"></strong>
+                  <br />
+                  <br />
+
+                  Jumlah yang akan diterima
+                  <br />
+                  <strong id="total"></strong>
+                </p>
+              </div>
+
+            </div>
+
+            <div class="payment-methods mt-4">
+              <span><strong>Dicairkan ke</strong></span>
+              <div class="payment-description--light mt-2 ">
+                <p class="mb-0">
+                  <span id="channel"></span>
+                  <br>
+                  <strong id="account_number"></strong><br>
+                  <span id="account_name"></span>
+                </p>
+              </div>
+            </div>
+            
+            <div class="eightpx font-weight-bold text-danger mt-4" style="line-height: 1.8;">
+              Pastikan informasi sudah benar. Gagal transfer karena informasi salah bukan tanggung jawab SociaBuzz.
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-rounded btn-block mt-4">
+              Cairkan
+            </button>
+
+            <button class="btn btn-outline-primary btn-rounded btn-block mt-3" data-dismiss="modal">
+              Cancel
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- saldoCarikan Modal-1  -->
+
+  <!-- saldo carikan modal 2 -->
+  <div class="modal fade" id="saldoCarikan2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-heading">
+            <div class="success-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <h2>Akan ditransfer tanggal <b id="settle_date" class="text-danger"></b>, yaitu 1 hari kerja sejak tanggal penarikan.</h2>
+            <p class="tenpx">
+              Hari kerja = tidak termasuk Sabtu,
+              <br>
+              Minggu & hari libur
+            </p>
+          </div>
+          <button type="button" class="btn btn-primary btn-rounded btn-block mt-5" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- saldo carikan modal 2 -->
+
+  <!-- Acc info edit Modal 1  -->
+  <div class="modal fade" id="accInfoEditModal" data-keyboard="false" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div id="load-account" class="text-center"><i class="fa fa-spinner fa-spin"></i></div>
+          <form id="addAccount" class="mt-2 hidden">
+            <input type="hidden" name="sb_token_csrf" value="b4e156a97ea65203b6355a8d6ecf935c" />            <div class="accFormAppend"></div>
+                          <p class="text-danger text-center mb-0"><small><b>Hanya bisa diubah setiap 90 hari sekali</b></small></p>
+                        <button type="submit" class="btn btn-primary btn-rounded btn-block mt-4">
+              Lanjut
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Acc info edit Modal 1 -->
+
+  <!-- Acc otp Modal 1  -->
+  <div class="modal fade" id="otpModal" data-keyboard="false" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <input type="hidden" name="sb_token_csrf" value="b4e156a97ea65203b6355a8d6ecf935c" />          <div class="accFormAppend">
+            <div class="form-group">
+              <label class="mb-0"> <strong>Kode OTP</strong> </label> 
+              <div style="line-height: 15px; margin-bottom: 10px;"><small>yang kami <strong>WhatsApp</strong> ke <strong>083138386839</strong></small></div>
+              <input type="number" name="otp" id="otp" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="6" class="form-control" />
+              <span class="help-control text-danger" id="text-error-otp"></span>
+              <p class="mb-3" style="line-height: 20px;">
+                <small style="font-size: 12px; color: #dc3545!important;">Cek WhatsApp di HP. Pastikan aplikasinya sudah versi ter-update & bukan WhatsApp Business.</small>
+              </p>
+              <p class="mb-3" style="font-size: .85rem;" id="resendOtp"> 
+                <span class="text-muted">Kirim kode OTP baru</span> 
+                <span id="timer" class="text-danger"></span>
+              </p>
+              <p class="mb-3" style="font-size: .85rem;"><a href="https://sociabuzz.com/proaccount/info" style="color: #1da1f2; text-decoration: underline;">Ubah nomor HP</a></p>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-rounded btn-block mt-4" id="confirmOtp">
+            Lanjut
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Acc otp Modal 1 -->
+
+  <!-- Acc info edit Modal 2  -->
+  <div class="modal fade" id="accInfoEditModal2" data-keyboard="false" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="modal-heading">
+            <h2 class="fourteenbold mb-3">Apakah data sudah benar?</h2>
+            <p id="message-title"></p>
+            <h2 class="fourteenbold" id="account-number"></h2>
+            <p id="account-name"></p>
+          </div>
+                    <div>
+            <button type="button" class="btn btn-primary btn-rounded btn-block mt-4" id="confirmAccount">Ya</button>
+            <button class="btn btn-outline-primary btn-rounded btn-block mt-3 iosmodal" id="editAccount">Edit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Acc info edit Modal 2 -->
+
+  <!-- Acc info edit Modal 2  -->
+  <div class="modal fade" id="modal-alert" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-heading"></div>
+          <div>
+            <button type="button" class="btn btn-primary btn-rounded btn-block mt-4" data-dismiss="modal">
+              OK
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Acc info edit Modal 2 -->
+
+  <div class="modal fade" id="modal-img" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+      <div>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position:absolute;right:5px;">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <img width="100%" src="https://storage.sociabuzz.com/storage/img/promo-dana.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="flashModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-heading">
+            <div class="success-icon">
+              <i class="fas fa-check-circle"></i>
+            </div>
+            <div id="message-success">
+                          </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-rounded btn-block mt-5" data-dismiss="modal">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="updatePhoneModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-heading">
+            <div>
+              Mohon isi <b>nomor HP</b> Anda terlebih dahulu di halaman <b>Akun</b>
+            </div>
+          </div>
+          <button type="button" class="btn btn-primary btn-rounded btn-block" onclick="location.href='https://sociabuzz.com/proaccount/info'">Ke halaman Akun</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="d-block text-center" style="min-height: 550px;" id="load-page">
+      <i class="fa fa-spinner fa-spin" style="font-size:xx-large;margin: 15% auto;"></i>
+    </div>
+        </main>
+
+        <div class="float-button-container" style="position: fixed; right: 0px; bottom: 0px; transition: all 0.2s ease-in 0s; z-index: 9999; cursor: pointer; padding: 20px 24px;">
+    <a href="https://api.whatsapp.com/send?phone=6288212779733&amp;text=Halo tim SociaBuzz. Saya Bima Zainudin Ikhsan (bimaikhsan.bi@gmail.com). Yang mau saya tanyakan adalah:" class="floating-button" style="width: 60px; height: 60px; background-color: #76cc11 !important; border: 0px; border-radius: 60px; color: white!important;">
+        <img src="https://storage.sociabuzz.com/storage/img/whatsapp.png">
+    </a>
+</div>
+        <!---------------- Footer --------------------->
+        <!-- <footer class="bg-dark text-center p-5">
+                            <img src="https://storage.sociabuzz.com/storage/tribe/resources/img/Logo SociaBuzz Pro (White).png" class="mb-4  mx-auto d-block" alt="footer image">
+            
+            <a href="mailto:support@sociabuzz.com" target="_blank" class="text-white d-block mb-2">Hubungi Support</a>
+            <a href="https://sociabuzz.freshdesk.com/support/home" target="_blank" class="text-white d-block mb-2">FAQ</a>
+            <a href="https://sociabuzz.com/info/terms" target="_blank" class="text-white d-block mb-2">Ketentuan Penggunaan</a>
+            <a href="https://sociabuzz.com/info/privacy" target="_blank" class="text-white d-block mb-4">Kebijakan Privasi</a>
+
+            <p class="text-secondary">&copy; PT Komunika Lintas Maya</p>
+        </footer> -->
+        <footer class="text-center v3" style="background-color: #262626 !important">
+            <a href="https://sociabuzz.com" target="_blank" rel="noreferrer,noopener">
+                <img src="https://storage.sociabuzz.com/storage/landingpage/home/img/sociabuzz-logo-white.png"
+                    class="mb-4 mx-auto d-block" alt="footer image" />
+            </a>
+            <p class="footer-item text-secondary mb-2">
+                <a href="/cdn-cgi/l/email-protection#15666065657a676155667a767c7477606f6f3b767a78" target="_blank" rel="noreferrer,noopener" style="font-size: 1rem; color:#fff !important; text-decoration:none ">
+                    Hubungi Kami
+                </a>
+            </p>
+            <p class="footer-item text-secondary mb-2">
+                <a href="https://sociabuzz.com/i/faq/id" target="_blank" rel="noreferrer,noopener"
+                    style="font-size: 1rem; color:#fff !important; text-decoration:none ">
+                    Panduan & FAQ
+                </a>
+            </p>
+            <p class="footer-item text-secondary mb-2">
+                <a href="https://sociabuzz.com/info/terms" target="_blank" rel="noreferrer,noopener"
+                    style="font-size: 1rem; color:#fff !important; text-decoration:none">
+                    Ketentuan Penggunaan
+                </a>
+            </p>
+            <p class="footer-item text-secondary mb-2">
+                <a href="https://sociabuzz.com/info/privacy" target="_blank" rel="noreferrer,noopener"
+                    style="font-size: 1rem; color:#fff !important; text-decoration:none">
+                    Kebijakan Privasi
+                </a>
+            </p>
+            <p class="footer-item text-secondary mb-2">
+                <a href="https://sociabuzz.com/i/policies" target="_blank" rel="noreferrer,noopener"
+                    style="font-size: 1rem; color:#fff !important; text-decoration:none">
+                    Kebijakan Lainnya
+                </a>
+            </p>
+            <!-- <p class="footer-item text-secondary mb-4">
+                <a href="https://sociabuzz.com/blog/en" target="_blank" rel="noreferrer,noopener"
+                    style="font-size: 1rem; color:#fff !important; text-decoration:none">
+                    Blog
+                </a>
+            </p> -->
+            <div class="socials mb-4">
+                    <a href="https://www.instagram.com/sociabuzz_com" target="_blank" rel="noreferrer,noopener">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/user/sociabuzz" target="_blank" rel="noreferrer,noopener">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <!-- <a href="https://discord.gg/G7YhHHJKsm" rel="noreferrer,noopener" target="_blank">
+                        <i class="fa-brands fa-discord"></i>
+                    </a> -->
+            </div>
+            <div style="font-size: 0.75rem; line-height: 1.75; max-width: 677px; margin: 0 auto; color: #8c8c8c">
+                <p class="font-weight-bold mb-0">
+                    SociaBuzz &copy; All Rights Reserved
+                </p>
+                <p class="comp-desc">
+                Company: PT Komunika Lintas Maya | Address: Epiwalk 5th Floor 540A, Jl. HR. Rasuna Said, Jakarta, Indonesia 12940 | Business Registration Number: 9120008622154 | Electronic System Registration Number: 000781.01/DJAI.PSE/06/2021 | Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="45363035352a373105362a262c2427303f3f6b262a28">[email&#160;protected]</a>
+                <br>&<br>
+                Company: SociaBuzz Pte. Ltd. | Address: 68 Circular Road #02-01 Singapore 049422 | Unique Entity Number (UEN): 202332283K
+                </p>
+            </div>
+        </footer>
+        <!---------------- Footer --------------------->
+
+        <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <!-- <script type="text/javascript" src="https://code.jquery.com/ui/1.9.2/jquery-ui.js"></script> -->
+                <script src="https://fastly.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+        </script>
+        <!-- <script src="js/all.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+        <!-- <script src="https://storage.sociabuzz.com/storage/profile/js/colMasonry.js"></script> -->
+        
+                <script src="https://fastly.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+        
+        <script>
+            $(document).on('show.bs.modal', '.modal', function () {
+                $(this).appendTo('body');
+            });
+
+            (function($){
+                $(document).on('ajaxError', function(event, xhr) {
+                    console.log(xhr.status);
+                    if (xhr.status === 403 || xhr.status === 500 || xhr.status === 200 || xhr.status === 0 || xhr.status === 302) {
+                        window.location.reload();
+                    }
+                });
+            })(jQuery);
+
+            async function validateImage(currentInput, width, height) {
+                if(currentInput){
+                    const fileReader = new FileReader();
+                    const image = new Image();
+                    fileReader.readAsDataURL(currentInput);
+                    fileReader.onload = await function (e) {
+                        image.src = e.target.result;
+                    };
+                    return new Promise((res, rej) => {
+                        image.onload = function () {
+                            if (this.width >= width) {
+                                if (this.height >= height) {
+                                    res("ok");
+                                } else {
+                                    res("not");
+                                }
+                            } else {
+                                res("not");
+                            }
+                        };
+                    });
+                }
+            }
+            function isFileFormatValid(file, fileType) {
+                const isAllowedExtensions =
+                $.inArray(file.name.split(".").pop().toUpperCase(), fileType.map(f=>{ return f.toUpperCase(); })) !== -1;
+                if (isAllowedExtensions) {
+                return true;
+                } else {
+                return false;
+                }
+            }
+
+            // file size check in kb
+            function isFileSizeValid(file, size) {
+                const isSizeUploadable = file.size <= size * 1024;
+                if (isSizeUploadable) {
+                return true;
+                } else {
+                return false;
+                }
+            }
+
+            function isObject (item) {
+                return (typeof item === "object" && !Array.isArray(item) && item !== null);
+            }
+        </script>
+            <script>
+        let balance = 0;
+        let bank = 0;
+        let gopay = 0;
+        let dana = 1;
+        let ovo = 0;
+        let linkaja = 0;
+        let shopeepay = 0;
+        let is_twofa = 0;
+        let type_payment = '';
+        let fee = 0;
+        let total = 0;
+        let type = '';
+        let search = '';
+        let page = 1;
+        let timeout = null;
+        var is_confirm = true;
+        const minimal = 15000;
+        const minimal_dana = 5000;
+        var currentTab = localStorage.getItem('currentTab');
+        var title = localStorage.getItem('title') ? localStorage.getItem('title') : 'Saldo | SociaBuzz Pro';
+        const is_phone_number = 1;
+        let timer;
+        
+        $(document).ready(function () {
+          document.title = title;
+          $.ajax({
+              type: 'GET',
+              url: 'https://sociabuzz.com/proaccount/transaction/getMenu',
+              dataType: 'json',
+              success: function(data){
+                if(data.success){
+                  $('#page').removeClass('hidden');
+                  $('#load-page').remove();
+                  $('#saldoTransaksiTab').html(data.data);
+                  $('.balance').html(formatNumber(data.balance));
+                  $('.totalSaldo').html(formatNumber(data.totalSaldo));
+                  balance = data.balance;
+                  $('#saldoTransaksiTab a[href="#saldo-tab"]').addClass('active');
+                  $('#saldoTransaksiTabContent #saldo-tab').addClass('active show');
+                  if (currentTab && currentTab != '#') {
+                    $('#saldoTransaksiTab .tabs').removeClass('active');
+                    $('#saldoTransaksiTab a[href="' + currentTab + '"]').addClass('active');
+                    $('#saldoTransaksiTabContent .tab-pane').removeClass('active show');
+                    $('#saldoTransaksiTabContent '+currentTab).addClass('active show');
+                    if(currentTab == '#transaction-tab'){
+                      getHistory(page,search);
+                    }else if(currentTab == '#penarikan-tab'){
+                      getDataWithdraw(page);
+                    }else if(currentTab == '#waiting-tab'){
+                      getDataWaiting(page);
+                    }else if(currentTab == '#pending-tab'){
+                      getDataPending(page);
+                    }else if(currentTab == '#inprocess-tab'){
+                      getInprocess(page,search);
+                    }
+                  }
+                }
+              }
+          });
+          
+          $(document).on('click', '.tabs', function(e){
+            // localStorage.setItem('currentTab', $(e.target).attr('href'));
+          });
+
+          $(".edit-account").on("click", function () {
+            $("#load-account").removeClass('hidden');
+            type_payment = $(this).data("type");
+            var min_wd = minimal;
+            if(type == 'dana'){
+              min_wd = minimal_dana;
+            }
+            if(!is_phone_number){
+              $("#updatePhoneModal").modal("show");
+              return;
+            }
+            var template = `<div class="form-group"><label> Bank </label> <select id="list-bank" type="text" name="bank" class="form-control" style="width:100%;"></select><span class="help-control text-danger" id="text-error-bank"></span></div><div class="form-group">
+                <label> Nomor rekening </label> <input type="number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="20" onkeypress="if ( isNaN( String.fromCharCode(event.keyCode) )) return false;" name="account" class="form-control" /><input type="hidden" id="code" name="code" class="form-control hidden" /> <span class="help-control" id="text-info-account">Tidak bisa nomor virtual account</span><span class="help-control text-danger" id="text-error-account"></span>
+                </div>`;
+            
+            $('#addAccount').addClass('hidden');
+            if(type_payment == 'gopay' || type_payment == 'dana' || type_payment == 'ovo' || type_payment == 'shopeepay'|| type_payment == 'linkaja'){
+              var type_name = 'Gopay';
+              if(type_payment == 'dana'){
+                type_name = 'DANA';
+              }else if(type_payment == 'ovo'){
+                type_name = 'OVO';
+              }else if(type_payment == 'shopeepay'){
+                type_name = 'ShopeePay';
+              }else if(type_payment == 'linkaja'){
+                type_name = 'LinkAja';
+              }
+              $("#load-account").addClass('hidden');
+              $('#addAccount').removeClass('hidden');
+              var template = `<div class="form-group">
+                <label> Nomor akun ${type_name} </label> <input type="number" name="account" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="14" class="form-control valid-phonenumber" />
+                <span class="help-control text-danger" id="text-error-account"></span>
+                </div>`;
+            }
+
+            $("#accInfoEditModal .accFormAppend").html(template);
+            if(type_payment == 'bank'){
+              $("#list-bank").select2();
+              load_bank();
+              $('#list-bank').on('change', function(){
+                var code = $(this).find(":selected").data("code");
+                var source = $(this).find(":selected").data("source");
+                $('#code').val(code);
+                $('#v-account_name').remove();
+                if(source == 'xendit' && (code != 'ARTOS' && code != 'ROYAL' && code != 'WOORI' && code != 'KESEJAHTERAAN_EKONOMI')){
+                  var templateAccount = `<div class="form-group" id="v-account_name">
+                    <label> Nama akun </label> <input type="text" id="input_account_name" name="account_name" maxlength="60" class="form-control" /> <span class="help-control text-danger" id="text-error-account_name"></span>
+                    </div>`;
+                  $("#accInfoEditModal .accFormAppend").append(templateAccount);
+                }
+              });
+            }
+            $("#accInfoEditModal").modal("show");
+          });
+
+          $(document).on('keyup input', '.valid-phonenumber', function(e){
+            var input = $(this).val();
+            const phoneNumberRegex = /^(62|0)\d{9,14}$/;
+            var regexType = new RegExp("[^0-9]", "g");
+            var regex = input.replace(regexType,"");
+            $('#text-error-account').html('');
+            if(regex && !phoneNumberRegex.test(regex)){
+              // $('#text-error-account').html('Nomor tidak valid, mohon cek kembali.');
+            }
+            $(this).val(regex);
+          });
+
+          $('#btn-action').on("click touchstart", function () {
+            $('#text-error-amount').html('');
+            $('#channel').html('');
+            $('#account_number').html('');
+            $('#account_name').html('');
+            type = $('.account-details input[name="type"]:checked').val();
+            var min_wd = minimal;
+            if(type == 'dana'){
+              min_wd = minimal_dana;
+            }
+            if(balance < min_wd){
+              const message = '<p>Untuk melakukan penarikan saldo <b>minimal</b><br><b>Rp'+formatNumber(min_wd)+'</b></p>';
+              $("#modal-alert .modal-heading").html(message);
+              $("#modal-alert").modal("show");
+              return;
+            }
+            
+            if(type){
+              if(type == 'bank' && !bank){
+                var message = '<p>Mohon isi data <b>rekening bank</b> terlebih dahulu</p>';
+                $("#modal-alert .modal-heading").html(message);
+                $("#modal-alert").modal("show");
+                return;
+              }
+              if(type == 'gopay' && !gopay){
+                var message = '<p>Mohon isi data <b>akun Gopay</b> terlebih dahulu</p>';
+                $("#modal-alert .modal-heading").html(message);
+                $("#modal-alert").modal("show");
+                return;
+              }
+              if(type == 'dana' && !dana){
+                var message = '<p>Mohon isi data <b>akun DANA</b> terlebih dahulu</p>';
+                $("#modal-alert .modal-heading").html(message);
+                $("#modal-alert").modal("show");
+                return;
+              }
+              if(type == 'ovo' && !ovo){
+                var message = '<p>Mohon isi data <b>akun OVO</b> terlebih dahulu</p>';
+                $("#modal-alert .modal-heading").html(message);
+                $("#modal-alert").modal("show");
+                return;
+              }
+              if(type == 'linkaja' && !linkaja){
+                var message = '<p>Mohon isi data <b>akun LinkAja</b> terlebih dahulu</p>';
+                $("#modal-alert .modal-heading").html(message);
+                $("#modal-alert").modal("show");
+                return;
+              }
+              if(type == 'shopeepay' && !shopeepay){
+                var message = '<p>Mohon isi data <b>akun ShopeePay</b> terlebih dahulu</p>';
+                $("#modal-alert .modal-heading").html(message);
+                $("#modal-alert").modal("show");
+                return;
+              }
+            }
+
+            fee = 1000;
+            if(type == 'bank'){
+              fee = 4500;
+              if(type == 'bank'){
+                fee = 1800;
+              }
+            }else if(type == 'ovo'){
+              fee = 1000;
+            }else if(type == 'linkaja'){
+              fee = 1000;
+            }else if(type == 'shopeepay'){
+              fee = 2000;
+            }else if(type == 'dana'){
+              fee = 100;
+            }else if(type == 'gopay'){
+              fee = 1000;
+            }
+            total = balance - fee;
+            $('#saldoCarikan1').modal('show');
+            $('#amount').val(formatNumber(balance));
+            let type_transaksi = type;
+            if(type == 'gopay'){
+              type_transaksi = capitalizeFirstLetter(type);
+            }else if(type == 'dana' || type == 'ovo'){
+              type_transaksi = type.toUpperCase();
+            }else if(type == 'shopeepay'){
+              type_transaksi = 'ShopeePay';
+            }else if(type == 'linkaja'){
+              type_transaksi = 'LinkAja';
+            }
+            $('#type-transaksi').html(type_transaksi);
+            $('#fee').html('-Rp'+formatNumber(fee));
+            $('#total').html('Rp'+formatNumber(total));
+            var textinfo = $('#account-info-'+type).text().replace(/\r?\n|\r/g, '');
+            var account = textinfo.trim().split(' | ');
+            $('#channel').html(account[0]);
+            $('#account_number').html(account[1]);
+            $('#account_name').html(account[2]);
+            if(type == 'gopay'){
+              $('#channel').html('Gopay');
+              var numberAccount = $('#account-info-'+type).data('account');
+              $('#account_number').html(numberAccount);
+              $('#account_name').html(account[1]);
+            }
+            if(type == 'dana'){
+              $('#channel').html('DANA');
+              var numberAccount = $('#account-info-'+type).data('account');
+              $('#account_number').html(numberAccount);
+              $('#account_name').html(account[1]);
+            }
+            if(type == 'ovo'){
+              $('#channel').html('OVO');
+              var numberAccount = $('#account-info-'+type).data('account');
+              $('#account_number').html(numberAccount);
+              $('#account_name').html(account[1]);
+            }
+            if(type == 'shopeepay'){
+              $('#channel').html('ShopeePay');
+              var numberAccount = $('#account-info-'+type).data('account');
+              $('#account_number').html(numberAccount);
+              $('#account_name').html(account[1]);
+            }
+            if(type == 'linkaja'){
+              $('#channel').html('LinkAja');
+              var numberAccount = $('#account-info-'+type).data('account');
+              $('#account_number').html(numberAccount);
+              $('#account_name').html(account[1]);
+            }
+          });
+
+          $('#amount').on('keyup', function(){
+            var value = $(this).val().replace(/\./g, '');
+            $('#text-error-amount').html('');
+            var min_wd = minimal;
+            if(type == 'dana'){
+              min_wd = minimal_dana;
+            }
+            if(value < min_wd){
+              $('#text-error-amount').html('Minimal Rp'+formatNumber(min_wd));
+              return;
+            }
+            if(value > balance){
+              $('#text-error-amount').html('Tidak bisa lebih dari Rp'+formatNumber(balance));
+              return;
+            }
+            if(type == 'gopay'){
+              if(value == 10000000){
+                $('#text-error-amount').html('Pastikan Anda bisa menerima Rp10.000.000 tanpa melebihi batas saldo Gopay Anda');
+                // return;
+              }
+              if(value > 10000000){
+                $('#text-error-amount').html('Batas penarikan ke Gopay Rp10.000.000');
+                // return;
+              }
+            }
+            if(type == 'dana'){
+              if(value == 10000000){
+                $('#text-error-amount').html('Pastikan Anda bisa menerima Rp10.000.000 tanpa melebihi batas saldo DANA Anda');
+                // return;
+              }
+              if(value > 10000000){
+                $('#text-error-amount').html('Batas penarikan ke DANA Rp10.000.000');
+                // return;
+              }
+            }
+            total = value - fee;
+            $('#total').html('Rp'+formatNumber(total));
+          });
+
+          $('#form-penarikan').on('submit', function (e) {
+              $('button').attr('disabled','disabled');
+              $('#form-penarikan .btn-primary').append('<i id="spinner" class="fa fa-spinner fa-spin"></i>');
+              $('#text-error-bank').html('');
+              $('#text-error-account').html('');
+              e.preventDefault();
+              var url = 'https://sociabuzz.com/proaccount/transaction/sendwithdrawalauto/'+ type;
+              $.ajax({
+                  type: 'POST',
+                  url: url,
+                  data: $('#form-penarikan').serialize(),
+                  success: function (data) {
+                      $('button').removeAttr('disabled');
+                      $('#spinner').remove();
+                      $('input[name="sb_token_csrf"]').val(data.csrf_hash);
+                      if($('#2fa').length > 0){
+                        $('#2fa').val('');
+                      }
+                      if(data.success){
+                          balance = data.balance;
+                          $('.balance').html(formatNumber(data.balance));
+                          $("#saldoCarikan1").modal("hide");
+                          if(data.redirect){
+                            window.location.href = data.link;
+                            return;
+                          }
+                          if(data.type == 'instant'){
+                            $('#message-success').html(data.message);
+                            $('#flashModal').modal("show");
+                            return;
+                          }
+                          $('#settle_date').html(data.estimated_date + ' max 23.59 WIB');
+                          $('#saldoCarikan2').modal("show");
+                          // setTimeout(function(){ 
+                          //   location.reload();
+                          // }, 5000);
+                      }else{
+                          balance = data.balance;
+                          $('.balance').html(formatNumber(data.balance));
+                          if(data.errors && data.errors.amount){
+                            $('#text-error-amount').html(data.errors.amount);
+                          }else if(data.errors && data.errors.twofa){
+                            $('#text-error-2fa').html(data.errors.twofa);
+                          }else{
+                            $('#text-error-amount').html(data.errors);
+                          }
+                      }
+                  }
+              });
+          });
+
+          $('#addAccount').on('submit', function (e) {
+              $('#addAccount button').attr('disabled','disabled');
+              $('#addAccount button').append('<i id="spinner" class="fa fa-spinner fa-spin"></i>');
+              $('#text-error-bank').html('');
+              $('#text-error-account').html('');
+              $('#text-error-account_name').html('');
+              e.preventDefault();
+              $.ajax({
+                  type: 'POST',
+                  url: 'https://sociabuzz.com/proaccount/transaction/addaccount/'+ type_payment,
+                  data: $('#addAccount').serialize(),
+                  success: function (data) {
+                      $('#addAccount button').removeAttr('disabled');
+                      $('#spinner').remove();
+                      $('input[name="sb_token_csrf"]').val(data.csrf_hash);
+                      if(data.success){
+                        $("#accInfoEditModal").modal("hide");
+                          if(data.message == 'ok'){
+                            $("#modal-alert .modal-heading").html(`Berhasil tersimpan`);
+                            $("#modal-alert").modal("show");
+                            return;
+                          }
+                          var title = data.data.bank_name.toUpperCase();
+                          if(data.data.bank_name == 'gopay'){
+                            title = 'Akun Gopay';
+                          }
+                          if(data.data.bank_name == 'dana'){
+                            title = 'Akun DANA';
+                          }
+                          if(data.data.bank_name == 'ovo'){
+                            title = 'Akun OVO';
+                          }
+                          if(data.data.bank_name == 'LINKAJA'){
+                            title = 'Akun LinkAja';
+                          }
+                          if(data.data.bank_name == 'SHOPEEPAY'){
+                            title = 'Akun ShopeePay';
+                          }
+                          $('#message-title').html(title);
+                          $('#account-number').html(data.data.account_no);
+                          $('#account-name').html(data.data.account_name);
+                          is_confirm = true;
+                          if(!is_twofa && ((data.data.source == 'flip' && data.data.account_name == '') || data.data.source == 'ayoconnect')){
+                            is_confirm = false;
+                          }
+                          $('#otp').val('');
+                          $('#otpModal').modal("show");
+                          timerStart();
+                      }else{
+                          if(data.errors.bank){
+                            $('#text-error-bank').html(data.errors.bank);
+                          }
+
+                          if(data.errors.account){
+                            $('#text-error-account').html(data.errors.account);
+                          }else{
+                            if(data.errors){
+                              $('#text-error-account').html(data.errors);
+                            }else{
+                              $('#text-error-account').html('');
+                            }
+                          }
+
+                          if(data.errors.account_name){
+                            $('#text-error-account_name').html(data.errors.account_name);
+                          }else{
+                            $('#text-error-account_name').html('');
+                          }
+
+                          if(data.errors.phone){
+                            $("#accInfoEditModal").modal("hide");
+                            $("#updatePhoneModal").modal("show");
+                          }
+                      }
+                  }
+              });
+          });
+
+          $('#confirmOtp').on('click', function(){
+            $(this).attr('disabled','disabled');
+            $(this).append('<i id="spinner-otp" class="fa fa-spinner fa-spin"></i>');
+            $.ajax({
+                type: 'POST',
+                url: 'https://sociabuzz.com/proaccount/transaction/confirm_otp/'+type_payment,
+                data: {
+                  sb_token_csrf: $('input[name="sb_token_csrf"]').val(),
+                  otp: $('#otp').val() ?? ''
+                },
+                dataType: 'json',
+                success: function(data){
+                  $('input[name="sb_token_csrf"]').val(data.csrf_hash);
+                  $('#confirmOtp #spinner-otp').remove();
+                  $('#confirmOtp').removeAttr('disabled');
+                  if(data.success){
+                    $('#otpModal').modal('hide');
+                    $("#modal-alert .modal-heading").html(data.message);
+                    $("#modal-alert").modal("show");
+                    if(data.reload){
+                      setTimeout(function(){ 
+                        location.reload();
+                      }, 500);
+                    }
+                  }else{
+                    if(data.errors.otp){
+                      $('#text-error-otp').html(data.errors.otp);
+                    }else{
+                      $('#text-error-otp').html('');
+                    }
+                  }
+                }
+            });
+          });
+
+          $(document).on('click', '.resend-otp', function(){
+            $('#otp').val('');
+            $('#text-error-otp').html('');
+            $.ajax({
+                type: 'POST',
+                url: 'https://sociabuzz.com/proaccount/transaction/resend_otp',
+                data: {
+                  sb_token_csrf: $('input[name="sb_token_csrf"]').val()
+                },
+                dataType: 'json',
+                success: function(data){
+                  $('input[name="sb_token_csrf"]').val(data.csrf_hash);
+                  if(data.success){
+                    $('#resendOtp').html(`<span class="text-muted">Kirim kode OTP baru</span> <span id="timer" class="text-danger"></span>`)
+                    timerStart();
+                  }
+                }
+            });
+          });
+
+          $('#confirmAccount').on('click', function(){
+            if(is_confirm){
+              $('#accInfoEditModal2 button').attr('disabled','disabled');
+              $(this).attr('disabled','disabled');
+              $(this).append('<i id="spinner" class="fa fa-spinner fa-spin"></i>');
+              $.ajax({
+                  type: 'POST',
+                  url: 'https://sociabuzz.com/proaccount/transaction/confirmaccount/'+type_payment,
+                  data: {
+                    sb_token_csrf: $('input[name="sb_token_csrf"]').val(),
+                    twofa: $('#2fa-code').val() ?? ''
+                  },
+                  dataType: 'json',
+                  success: function(data){
+                    $('input[name="sb_token_csrf"]').val(data.csrf_hash);
+                    $('#confirmAccount').removeAttr('disabled');
+                    $('#confirmAccount #spinner').remove();
+                    $('#accInfoEditModal2 button').removeAttr('disabled');
+                    if(data.success){
+                      $('#accInfoEditModal2').modal('hide');
+                      $("#modal-alert .modal-heading").html(data.message);
+                      $("#modal-alert").modal("show");
+                      if(data.reload){
+                        setTimeout(function(){ 
+                          location.reload();
+                        }, 500);
+                      }
+                    }else{
+                      if(data.errors.twofa){
+                        $('#text-error-2fa-code').html(data.errors.twofa);
+                      }else{
+                        $('#text-error-2fa-code').html('');
+                      }
+                    }
+                  }
+              });
+            }else{
+              $('#accInfoEditModal2').modal('hide');
+              $("#modal-alert .modal-heading").html(`Mohon cek inbox <b>bimaikhsan.bi@gmail.com</b> dalam beberapa menit ke depan, dan klik link verifikasi yang akan dikirim. Jika tidak ada di inbox, cek juga di folder spam/promotion.`);
+              $("#modal-alert").modal("show");
+            }
+          });
+
+          $('#editAccount').on('click', function(){
+            $('#accInfoEditModal2').modal("hide");
+            $("#accInfoEditModal").modal("show");
+          });
+
+          $('#amount').on('change click keyup input paste',(function (event) {
+              $(this).val(function (index, value) {
+                return formatNumber(value.split('.').join(""));
+              });
+          }));
+
+          $('#search').on('keyup', function(){
+            search = $(this).val();
+            clearTimeout(timeout);
+            timeout = setTimeout(function () {
+              getHistory(1,search);
+            }, 1000); 
+          });
+
+          $('#inprocess-search').on('keyup', function(){
+            search = $(this).val();
+            clearTimeout(timeout);
+            timeout = setTimeout(function () {
+              getInprocess(1,search);
+            }, 1000); 
+          });
+
+          $(document).on('keyup', '#input_account_name', function(){
+            var value = $(this).val().replace(/[^a-zA-Z. ]/g, "");
+            var regExp = /[a-z A-Z]/g;
+            value = value.replace(/\s\s+/g,'');
+            if(!regExp.test(value)){
+              value = value.replace(/\s/g,'');
+            }
+            $(this).val(capitalFisrtAll(value));
+          });
+
+          $(document).on('click', '.halaman', function(){
+            var page = $(this).attr("id");
+            var type = $(this).data("type");
+            if(type == 'transaction'){
+              getHistory(page,search);
+            }else if(type == 'withdraw'){
+              getDataWithdraw(page);
+            }else if(type == 'waiting'){
+              getDataWaiting(page);
+            }else if(type == 'pending'){
+              getDataPending(page);
+            }else if(type == 'pending-shop'){
+              getDataPendingShop(page);
+            }else if(type == 'inprocess'){
+              getInprocess(page,search);
+            }
+            
+          });
+
+          $(document).on('click', '#saldo-tab-btn', function(){
+            document.title = 'Saldo | SociaBuzz Pro';
+            localStorage.setItem('title', 'Saldo | SociaBuzz Pro');
+          });
+
+          $(document).on('click', '#transaction-tab-btn', function(){
+            document.title = 'Transaksi | SociaBuzz Pro';
+            // localStorage.setItem('title', 'Transaksi | SociaBuzz Pro');
+            getHistory(1,'');
+          });
+
+          $(document).on('click', '#penarikan-tab-btn', function(){
+            document.title = 'Penarikan | SociaBuzz Pro';
+            // localStorage.setItem('title', 'Penarikan | SociaBuzz Pro');
+            getDataWithdraw(page);
+          });
+
+          $(document).on('click', '#pending-tab-btn', function(){
+            document.title = 'Pending | SociaBuzz Pro';
+            // localStorage.setItem('title', 'Pending | SociaBuzz Pro');
+            getDataPending(page);
+          });
+
+          $(document).on('click', '#waiting-tab-btn', function(){
+            document.title = 'Menunggu Payment | SociaBuzz Pro';
+            // localStorage.setItem('title', 'Menunggu Payment | SociaBuzz Pro');
+            getDataWaiting(page);
+          });
+
+          $(document).on('click', '#inprocess-tab-btn', function(){
+            document.title = 'Dalam Proses | SociaBuzz Pro';
+            // localStorage.setItem('title', 'Menunggu Payment | SociaBuzz Pro');
+            getInprocess(page,search);
+          });
+
+          $(document).on('click', '#pending-shop-tab-btn', function(){
+            document.title = 'Pending | SociaBuzz Pro';
+            // localStorage.setItem('title', 'Pending | SociaBuzz Pro');
+            getDataPendingShop(page);
+          });
+
+          $(document).on('click', '#reload', function(){
+            $('#search').val('');
+            search = '';
+            getHistory(1,'');
+          });
+
+          $('#2fa').on('input', function() {
+            $('#text-error-2fa').html('')
+            $('#2fa').val($('#2fa').val().replace(/[^0-9]/g, '').toString())
+            if($('#2fa').val().toString().length >= 6) {
+                $('#2fa').val($('#2fa').val().substring(0, 6));
+                return;
+            }
+          });
+
+          $('#2fa-code').on('input', function() {
+            $('#text-error-2fa-code').html('')
+            $('#2fa-code').val($('#2fa-code').val().replace(/[^0-9]/g, '').toString())
+            if($('#2fa-code').val().toString().length >= 6) {
+                $('#2fa-code').val($('#2fa-code').val().substring(0, 6));
+                return;
+            }
+          });
+
+          function formatNumber(b){
+            var _minus = false;
+            if (b<0) _minus = true;
+            b = b.toString();
+            b=b.replace(".","");
+            b=b.replace("-","");
+            c = "";
+            panjang = b.length;
+            j = 0;
+            for (i = panjang; i > 0; i--){
+              j = j + 1;
+              if (((j % 3) == 1) && (j != 1)){
+                c = b.substr(i-1,1) + "." + c;
+              } else {
+                c = b.substr(i-1,1) + c;
+              }
+            }
+            if (_minus) c = "-" + c ;
+            return c;
+          }
+
+          function capitalizeFirstLetter(string) {
+            return string.charAt(0).toUpperCase() + string.slice(1);
+          }
+
+          function capitalFisrtAll(params) {
+            return params.replace(/(^\w{1})|(\s+\w{1})/g, letter => letter.toUpperCase());
+          }
+
+          function load_bank() {
+              $('#list-bank').empty();
+              var banks = [];
+              $.ajax({
+                  type: 'GET',
+                  url: 'https://sociabuzz.com/proaccount/transaction/listbank',
+                  dataType: 'json',
+                  success: function(data){
+                    $('#list-bank').append('<option value="">Pilih Bank</option>');
+                    $.each(data.data, function(i, item) {
+                      if(item.code){
+                        if(item.code != 'ovo' && item.code != 'gopay'){
+                          banks[i] = "<option value='" + item.name + "' data-code='"+ item.code +"' data-source='"+ item.source +"'>"+ (item.code_bank ? item.code_bank.toUpperCase().replace('_',' ') : item.code.toUpperCase().replace('_',' ')) +" (" + item.name.toUpperCase() + ")</option>";
+                        }
+                      }
+                    });
+                    $('#list-bank').append(banks);
+                    $("#load-account").addClass('hidden');
+                    $('#addAccount').removeClass('hidden');
+                  }
+              });
+          }
+
+          function getHistory(page,search) {
+            $('.pagination').html('');
+            $('#data-history').html('<div class="text-center mb-2"><i class="fa fa-spinner fa-spin"></i></div>');
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/getDataHistory?page='+page+'&search='+search,
+                dataType: 'json',
+                success: function(data){
+                  if(data.success){
+                    paginate(page,data.total,data.limit,'transaction');
+                    if(data.total == 0){
+                      $('#export-excel').remove();
+                    }
+                    $('#data-history').html(data.data);
+                  }
+                }
+            });
+          }
+
+          function getInprocess(page,search) {
+            $('.pagination').html('');
+            $('#data-history').html('<div class="text-center mb-2"><i class="fa fa-spinner fa-spin"></i></div>');
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/getDataInprocess?page='+page+'&search='+search,
+                dataType: 'json',
+                success: function(data){
+                  if(data.success){
+                    paginate(page,data.total,data.limit,'inprocess');
+                    if(data.total == 0){
+                      $('#export-excel').remove();
+                    }
+                    $('#data-inprocess').html(data.data);
+                  }
+                }
+            });
+          }
+
+          function getDataWithdraw(page) {
+            $('.pagination').html('');
+            $('#data-withdraw').html('<div class="text-center mb-2"><i class="fa fa-spinner fa-spin"></i></div>');
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/getDataWithdraw?page='+page,
+                dataType: 'json',
+                success: function(data){
+                  if(data.success){
+                    paginate(page,data.total,data.limit,'withdraw');
+                    $('#data-withdraw').html(data.data);
+                  }
+                }
+            });
+          }
+
+          function getDataPending(page) {
+            $('.pagination').html('');
+            $('#data-pending').html('<div class="text-center mb-2"><i class="fa fa-spinner fa-spin"></i></div>');
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/getDataPending?page='+page,
+                dataType: 'json',
+                success: function(data){
+                  if(data.success){
+                    paginate(page,data.total,data.limit,'pending');
+                    $('#data-pending').html(data.data);
+                  }
+                }
+            });
+          }
+
+          function getDataWaiting(page) {
+            $('.pagination').html('');
+            $('#data-waiting').html('<div class="text-center mb-2"><i class="fa fa-spinner fa-spin"></i></div>');
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/getDataWaiting?page='+page,
+                dataType: 'json',
+                success: function(data){
+                  if(data.success){
+                    paginate(page,data.total,data.limit,'waiting');
+                    $('#data-waiting').html(data.data);
+                  }
+                }
+            });
+          }
+
+          function getDataPendingShop(page) {
+            $('.pagination').html('');
+            $('#data-pending').html('<div class="text-center mb-2"><i class="fa fa-spinner fa-spin"></i></div>');
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/getDataPendingShop?page='+page,
+                dataType: 'json',
+                success: function(data){
+                  if(data.success){
+                    paginate(page,data.total,data.limit,'pending-shop');
+                    $('#data-pending-shop').html(data.data);
+                  }
+                }
+            });
+          }
+
+          function paginate(page,total,limit,type){
+            $.ajax({
+                type: 'GET',
+                url: 'https://sociabuzz.com/proaccount/transaction/paginate/'+page+'/'+total+'/'+limit+'/'+type,
+                dataType: 'json',
+                success: function(data){
+                  $('.pagination').html(data.data);
+                }
+            });
+          }
+
+          function timerStart(){
+            clearInterval(timer);
+            document.getElementById("timer").innerHTML = '03:00';
+            var countDownDate = new Date().getTime() + 3 * 60 * 1000;
+            
+            // Update the count down every 1 second
+            timer = setInterval(function() {
+                // Get today's date and time
+                var now = new Date().getTime();
+                // Find the distance between now and the count down date
+                var distance = countDownDate - now;
+                // Time calculations for days, hours, minutes and seconds
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                if(minutes < 10){
+                    minutes = '0'+minutes;
+                }
+                if(seconds < 10){
+                    seconds = '0'+seconds;
+                }
+                $("#timer").html(minutes+':'+seconds);
+                // If the count down is finished, write some text
+                if (distance < 0) {
+                  clearInterval(timer);
+                  document.getElementById("timer").innerHTML = '00:00';
+                  $("#resendOtp").html('<span class="resend-otp" style="color:#1da1f2; text-decoration: underline; cursor: pointer;">Kirim kode OTP baru</span>');
+                }
+            }, 1000);
+          }
+        });
+    </script>
+            <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"5e66715b1a1849f1adf710a4158b9cda","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9caeb2517e6ac02e',t:'MTc3MDU5MTEzNw=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

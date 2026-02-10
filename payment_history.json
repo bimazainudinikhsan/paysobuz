@@ -1,0 +1,1044 @@
+{
+  "payments": [
+    {
+      "id": "pay_1770584516_123456789",
+      "user_id": 123456789,
+      "status": "success",
+      "url": "https://sociabuzz.com/test/pay",
+      "method": "gopay",
+      "amount": 10000,
+      "message": "Test Debug",
+      "donor_name": "Debug User",
+      "created_at": "2026-02-09T04:01:56.526931",
+      "updated_at": "2026-02-09T04:01:56.538050",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "pay_1770584643_8102190707",
+      "user_id": 8102190707,
+      "status": "pending",
+      "url": "https://sociabuzz.com/payment/x/a4ae65b4-0531-11f1-b82f-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 0,
+      "message": "",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T04:04:03.104535",
+      "updated_at": "2026-02-09T04:04:03.106059",
+      "details": {
+        "redirect_url": null
+      }
+    },
+    {
+      "id": "pay_1770584870_8102190707",
+      "user_id": 8102190707,
+      "status": "pending",
+      "url": "https://sociabuzz.com/payment/x/37bbf286-0532-11f1-9da6-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 0,
+      "message": "",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T04:07:50.929366",
+      "updated_at": "2026-02-09T04:07:50.931367",
+      "details": {
+        "redirect_url": null
+      }
+    },
+    {
+      "id": "pay_1770585086_8102190707",
+      "user_id": 8102190707,
+      "status": "pending",
+      "url": "https://sociabuzz.com/payment/x/b682ca90-0532-11f1-8f95-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 0,
+      "message": "",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T04:11:26.936996",
+      "updated_at": "2026-02-09T04:11:26.938509",
+      "details": {
+        "redirect_url": null
+      }
+    },
+    {
+      "id": "7fec5996-0538-11f1-b8d9-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/7fec5996-0538-11f1-b8d9-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 0,
+      "message": "",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T04:53:26.690997",
+      "updated_at": "2026-02-09T05:05:09.372951",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "7468ff64-053a-11f1-9795-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/7468ff64-053a-11f1-9795-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 0,
+      "message": "",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T05:06:52.107993",
+      "updated_at": "2026-02-09T05:32:13.799844",
+      "details": {}
+    },
+    {
+      "id": "0baa2ac4-053b-11f1-8199-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/0baa2ac4-053b-11f1-8199-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 0,
+      "message": "",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T05:11:00.720554",
+      "updated_at": "2026-02-09T05:11:28.524351",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "db293a7c-053d-11f1-adf8-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/db293a7c-053d-11f1-adf8-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 10000,
+      "message": "semangat245",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T05:31:08.722867",
+      "updated_at": "2026-02-09T05:32:13.801843",
+      "details": {
+        "redirect_url": "https://sociabuzz.com/payment/x/db293a7c-053d-11f1-adf8-062dd6ffe3b6",
+        "loading_message_id": 124,
+        "message_id": 126
+      }
+    },
+    {
+      "id": "0d1d7dcc-053e-11f1-894c-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/0d1d7dcc-053e-11f1-894c-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 10000,
+      "message": "seman33gat245",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T05:32:32.134487",
+      "updated_at": "2026-02-09T05:33:10.232733",
+      "details": {
+        "redirect_url": "https://sociabuzz.com/payment/x/0d1d7dcc-053e-11f1-894c-062dd6ffe3b6",
+        "loading_message_id": 129,
+        "message_id": 131
+      }
+    },
+    {
+      "id": "481faac8-0541-11f1-8225-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/481faac8-0541-11f1-8225-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 10000,
+      "message": "seman33gat245",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T05:55:43.975428",
+      "updated_at": "2026-02-09T05:56:12.892835",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "284c8c26-054a-11f1-9647-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/284c8c26-054a-11f1-9647-062dd6ffe3b6",
+      "method": "bri",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T06:59:36.058344",
+      "updated_at": "2026-02-09T07:00:17.688909",
+      "details": {
+        "loading_message_id": 153
+      }
+    },
+    {
+      "id": "0a556976-054b-11f1-99eb-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/0a556976-054b-11f1-99eb-062dd6ffe3b6",
+      "method": "bri",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:08:04.976203",
+      "updated_at": "2026-02-09T07:30:30.018291",
+      "details": {
+        "loading_message_id": 156
+      }
+    },
+    {
+      "id": "2d4236ac-054c-11f1-b91f-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/2d4236ac-054c-11f1-b91f-062dd6ffe3b6",
+      "method": "ovo",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:13:40.163647",
+      "updated_at": "2026-02-09T07:30:30.020877",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 161
+      }
+    },
+    {
+      "id": "bbfb4e92-054c-11f1-9495-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/bbfb4e92-054c-11f1-9495-062dd6ffe3b6",
+      "method": "ovo",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:17:39.280389",
+      "updated_at": "2026-02-09T07:30:30.023454",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 166
+      }
+    },
+    {
+      "id": "86065c36-054d-11f1-867a-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/86065c36-054d-11f1-867a-062dd6ffe3b6",
+      "method": "sahabat_sampoerna",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:24:04.278945",
+      "updated_at": "2026-02-09T07:30:30.026462",
+      "details": {
+        "loading_message_id": 171
+      }
+    },
+    {
+      "id": "8fae22b8-054e-11f1-9a1b-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/8fae22b8-054e-11f1-9a1b-062dd6ffe3b6",
+      "method": "gopay",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:34:30.472030",
+      "updated_at": "2026-02-09T07:47:54.524394",
+      "details": {
+        "token": "a7a9b0a4-e566-454e-9306-27f3d40c7e68",
+        "redirect_url": "https://app.midtrans.com/snap/v4/redirection/a7a9b0a4-e566-454e-9306-27f3d40c7e68",
+        "loading_message_id": 180
+      }
+    },
+    {
+      "id": "5112bae4-0550-11f1-bb2e-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/5112bae4-0550-11f1-bb2e-062dd6ffe3b6",
+      "method": "gopay",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:46:58.439041",
+      "updated_at": "2026-02-09T07:47:54.528237",
+      "details": {
+        "token": "e909625c-a71c-4a74-b676-dc06b9c9ad6e",
+        "redirect_url": "https://app.midtrans.com/snap/v4/redirection/e909625c-a71c-4a74-b676-dc06b9c9ad6e",
+        "loading_message_id": 185
+      }
+    },
+    {
+      "id": "190650f6-0551-11f1-a4db-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/190650f6-0551-11f1-a4db-062dd6ffe3b6",
+      "method": "dana",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:48:53.726857",
+      "updated_at": "2026-02-09T08:10:56.350954",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 188
+      }
+    },
+    {
+      "id": "79cbfc88-0551-11f1-b611-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/79cbfc88-0551-11f1-b611-062dd6ffe3b6",
+      "method": "ovo",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T07:53:29.904168",
+      "updated_at": "2026-02-09T08:10:56.356951",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 191
+      }
+    },
+    {
+      "id": "46e1163a-0553-11f1-b136-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/46e1163a-0553-11f1-b136-062dd6ffe3b6",
+      "method": "dana",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T08:04:47.882528",
+      "updated_at": "2026-02-09T08:10:56.361947",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 196
+      }
+    },
+    {
+      "id": "d1a11dd8-0553-11f1-9200-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/d1a11dd8-0553-11f1-9200-062dd6ffe3b6",
+      "method": "dana",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T08:08:22.257268",
+      "updated_at": "2026-02-09T08:10:56.365945",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 201
+      }
+    },
+    {
+      "id": "4744dda4-0554-11f1-a762-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "pending",
+      "url": "https://sociabuzz.com/payment/x/4744dda4-0554-11f1-a762-062dd6ffe3b6",
+      "method": "dana",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T08:11:39.116405",
+      "updated_at": "2026-02-09T08:11:39.441548",
+      "details": {
+        "token": null,
+        "redirect_url": null,
+        "loading_message_id": 204
+      }
+    },
+    {
+      "id": "5856de80-059a-11f1-931f-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/5856de80-059a-11f1-931f-062dd6ffe3b6",
+      "method": "gopay",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T16:37:12.084361",
+      "updated_at": "2026-02-09T16:37:29.602165",
+      "details": {
+        "token": "4ef9bd37-e365-4009-acd5-e8d60851d4a1",
+        "redirect_url": "https://app.midtrans.com/snap/v4/redirection/4ef9bd37-e365-4009-acd5-e8d60851d4a1",
+        "loading_message_id": 211
+      }
+    },
+    {
+      "id": "t",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/bimaikhsan/confirm/t",
+      "method": "qris",
+      "amount": 2989301,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T16:39:02.862433",
+      "updated_at": "2026-02-09T16:39:22.015965",
+      "details": {}
+    },
+    {
+      "id": "39a1b374-059b-11f1-aba2-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/39a1b374-059b-11f1-aba2-062dd6ffe3b6",
+      "method": "gopay",
+      "amount": 298930,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T16:39:31.955802",
+      "updated_at": "2026-02-09T16:40:32.630720",
+      "details": {
+        "token": "930e01d6-3ef5-4fd2-9783-3a64877ca06e",
+        "redirect_url": "https://app.midtrans.com/snap/v4/redirection/930e01d6-3ef5-4fd2-9783-3a64877ca06e",
+        "loading_message_id": 226
+      }
+    },
+    {
+      "id": "96fa25a6-059b-11f1-9393-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/96fa25a6-059b-11f1-9393-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T16:42:34.834036",
+      "updated_at": "2026-02-09T16:43:39.282452",
+      "details": {
+        "final_amount": 10070.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/96fa25a6-059b-11f1-9393-062dd6ffe3b6",
+        "loading_message_id": 229,
+        "message_id": 231,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "19376ad6-059e-11f1-aa8a-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/19376ad6-059e-11f1-aa8a-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:01:19.319104",
+      "updated_at": "2026-02-09T17:35:45.568013",
+      "details": {
+        "final_amount": 10070.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/19376ad6-059e-11f1-aa8a-062dd6ffe3b6",
+        "loading_message_id": 236,
+        "message_id": 238,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "155f7718-059f-11f1-8e0f-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/155f7718-059f-11f1-8e0f-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:08:53.127874",
+      "updated_at": "2026-02-09T17:35:45.729500",
+      "details": {
+        "loading_message_id": 241,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "9255ab16-059f-11f1-ad98-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/9255ab16-059f-11f1-ad98-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:10:39.094690",
+      "updated_at": "2026-02-09T17:35:45.954070",
+      "details": {
+        "loading_message_id": 246,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "d56d3018-059f-11f1-ae50-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/d56d3018-059f-11f1-ae50-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:12:30.278795",
+      "updated_at": "2026-02-09T17:35:46.129262",
+      "details": {
+        "loading_message_id": 249,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "643712e6-05a0-11f1-80bf-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/643712e6-05a0-11f1-80bf-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:16:30.389753",
+      "updated_at": "2026-02-09T17:35:46.316413",
+      "details": {
+        "loading_message_id": 252,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "d8cf5942-05a0-11f1-822e-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/d8cf5942-05a0-11f1-822e-062dd6ffe3b6",
+      "method": "mandiri",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:21:22.496787",
+      "updated_at": "2026-02-09T17:35:46.464187",
+      "details": {
+        "loading_message_id": 255,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "d74596da-05a1-11f1-bea9-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/d74596da-05a1-11f1-bea9-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:27:01.693706",
+      "updated_at": "2026-02-09T17:35:46.664572",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "331da524-05a2-11f1-b7f7-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/331da524-05a2-11f1-b7f7-062dd6ffe3b6",
+      "method": "mandiri",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:30:46.820343",
+      "updated_at": "2026-02-09T17:35:46.863197",
+      "details": {
+        "loading_message_id": 261,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "1d1c37da-05a3-11f1-bcba-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/1d1c37da-05a3-11f1-bcba-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:35:58.682196",
+      "updated_at": "2026-02-09T17:35:59.777786",
+      "details": {
+        "loading_message_id": 272,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "937d0ddc-05a3-11f1-a6e1-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/937d0ddc-05a3-11f1-a6e1-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "seman33gat2457788",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-09T17:39:18.489148",
+      "updated_at": "2026-02-09T17:39:19.171561",
+      "details": {
+        "loading_message_id": 276,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "c2ecdd2c-065c-11f1-a2be-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/c2ecdd2c-065c-11f1-a2be-062dd6ffe3b6",
+      "method": "mandiri",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T15:45:07.300959",
+      "updated_at": "2026-02-10T15:45:11.275270",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "e9d01c24-065c-11f1-bd1d-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/e9d01c24-065c-11f1-bd1d-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T15:45:58.419525",
+      "updated_at": "2026-02-10T15:46:03.038036",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/e9d01c24-065c-11f1-bd1d-062dd6ffe3b6",
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful",
+        "message_id": 318
+      }
+    },
+    {
+      "id": "b4cde306-0668-11f1-be3b-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/b4cde306-0668-11f1-be3b-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:10:29.571306",
+      "updated_at": "2026-02-10T17:10:34.821331",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/b4cde306-0668-11f1-be3b-062dd6ffe3b6",
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful",
+        "message_id": 327
+      }
+    },
+    {
+      "id": "10058f8a-0669-11f1-b71c-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/10058f8a-0669-11f1-b71c-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:12:58.343436",
+      "updated_at": "2026-02-10T17:13:03.850256",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/10058f8a-0669-11f1-b71c-062dd6ffe3b6",
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful",
+        "message_id": 331
+      }
+    },
+    {
+      "id": "8ff2809a-0669-11f1-a459-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/8ff2809a-0669-11f1-a459-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:16:33.030473",
+      "updated_at": "2026-02-10T17:16:37.006403",
+      "details": {
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful",
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/8ff2809a-0669-11f1-a459-062dd6ffe3b6",
+        "message_id": 337
+      }
+    },
+    {
+      "id": "17952c14-066a-11f1-867a-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/17952c14-066a-11f1-867a-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:20:19.609391",
+      "updated_at": "2026-02-10T17:20:53.889823",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/17952c14-066a-11f1-867a-062dd6ffe3b6",
+        "message_id": 341
+      }
+    },
+    {
+      "id": "f35d6a54-066a-11f1-af67-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/f35d6a54-066a-11f1-af67-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:26:33.569348",
+      "updated_at": "2026-02-10T17:27:58.847738",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/f35d6a54-066a-11f1-af67-062dd6ffe3b6",
+        "message_id": 347,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "93a05dd6-066c-11f1-8b1c-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/93a05dd6-066c-11f1-8b1c-062dd6ffe3b6",
+      "method": "mandiri",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:38:09.462419",
+      "updated_at": "2026-02-10T17:39:04.142106",
+      "details": {}
+    },
+    {
+      "id": "7e0370a2-066d-11f1-bb0e-062dd6ffe3b6",
+      "user_id": 8102190707,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/7e0370a2-066d-11f1-bb0e-062dd6ffe3b6",
+      "method": "gopay",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T17:47:12.250964",
+      "updated_at": "2026-02-10T17:47:58.807258",
+      "details": {
+        "token": "42c61ac6-18a0-4ffd-9474-9cb098e47038",
+        "redirect_url": "https://app.midtrans.com/snap/v4/redirection/42c61ac6-18a0-4ffd-9474-9cb098e47038"
+      }
+    },
+    {
+      "id": "56e84288-0670-11f1-a73a-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/56e84288-0670-11f1-a73a-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T18:05:18.979672",
+      "updated_at": "2026-02-10T18:05:41.044701",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/56e84288-0670-11f1-a73a-062dd6ffe3b6",
+        "message_id": 369,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "45aa3584-0671-11f1-86ef-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/45aa3584-0671-11f1-86ef-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T18:12:00.168230",
+      "updated_at": "2026-02-10T18:15:02.282126",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/45aa3584-0671-11f1-86ef-062dd6ffe3b6",
+        "message_id": 380
+      }
+    },
+    {
+      "id": "f5f43228-0671-11f1-81fd-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/f5f43228-0671-11f1-81fd-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T18:16:38.071451",
+      "updated_at": "2026-02-10T18:16:54.935690",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/f5f43228-0671-11f1-81fd-062dd6ffe3b6",
+        "message_id": 386
+      }
+    },
+    {
+      "id": "43be1d8e-0677-11f1-9ffc-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/43be1d8e-0677-11f1-9ffc-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T18:54:50.549401",
+      "updated_at": "2026-02-10T18:55:54.304928",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/43be1d8e-0677-11f1-9ffc-062dd6ffe3b6",
+        "message_id": 411,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "8ebd0d4a-0677-11f1-9fa7-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/8ebd0d4a-0677-11f1-9fa7-062dd6ffe3b6",
+      "method": "sahabat_sampoerna",
+      "amount": 10000000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T18:57:39.582746",
+      "updated_at": "2026-02-10T18:57:57.333722",
+      "details": {}
+    },
+    {
+      "id": "c4165a78-0677-11f1-acf5-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/c4165a78-0677-11f1-acf5-062dd6ffe3b6",
+      "method": "sinarmas",
+      "amount": 10000000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T18:58:20.388072",
+      "updated_at": "2026-02-10T19:17:50.995675",
+      "details": {}
+    },
+    {
+      "id": "4a8daa34-0678-11f1-991c-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "failed_initialization",
+      "url": "https://sociabuzz.com/payment/x/4a8daa34-0678-11f1-991c-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:02:38.867402",
+      "updated_at": "2026-02-10T19:02:39.126103",
+      "details": {}
+    },
+    {
+      "id": "ea9d56d2-0678-11f1-bb77-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "failed_initialization",
+      "url": "https://sociabuzz.com/payment/x/ea9d56d2-0678-11f1-bb77-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:06:26.615492",
+      "updated_at": "2026-02-10T19:06:26.883782",
+      "details": {}
+    },
+    {
+      "id": "4ce0128a-0679-11f1-9aa7-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "failed_initialization",
+      "url": "https://sociabuzz.com/payment/x/4ce0128a-0679-11f1-9aa7-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:09:12.383365",
+      "updated_at": "2026-02-10T19:09:13.020146",
+      "details": {}
+    },
+    {
+      "id": "aed20958-0679-11f1-b7f4-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/aed20958-0679-11f1-b7f4-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:11:55.048178",
+      "updated_at": "2026-02-10T19:17:51.000422",
+      "details": {}
+    },
+    {
+      "id": "76f758d4-067a-11f1-9893-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/76f758d4-067a-11f1-9893-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:17:39.713510",
+      "updated_at": "2026-02-10T19:17:51.003533",
+      "details": {}
+    },
+    {
+      "id": "8faa967a-067a-11f1-bd12-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/8faa967a-067a-11f1-bd12-062dd6ffe3b6",
+      "method": "bri",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:19:34.759769",
+      "updated_at": "2026-02-10T19:19:53.503854",
+      "details": {}
+    },
+    {
+      "id": "6dfc29f2-067b-11f1-bf12-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/6dfc29f2-067b-11f1-bf12-062dd6ffe3b6",
+      "method": "bri",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:24:47.981109",
+      "updated_at": "2026-02-10T19:24:59.257860",
+      "details": {}
+    },
+    {
+      "id": "eeba193c-067b-11f1-a48e-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/eeba193c-067b-11f1-a48e-062dd6ffe3b6",
+      "method": "bca",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:28:02.930195",
+      "updated_at": "2026-02-10T19:28:25.388613",
+      "details": {}
+    },
+    {
+      "id": "cc5d2856-067c-11f1-95e0-062dd6ffe3b6",
+      "user_id": 7230535933,
+      "status": "cancelled_by_user",
+      "url": "https://sociabuzz.com/payment/x/cc5d2856-067c-11f1-95e0-062dd6ffe3b6",
+      "method": "bri",
+      "amount": 10000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T19:34:20.345489",
+      "updated_at": "2026-02-10T19:34:26.421186",
+      "details": {}
+    },
+    {
+      "id": "a4f6e16c-0686-11f1-b5e7-062dd6ffe3b6",
+      "user_id": 8544643617,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/a4f6e16c-0686-11f1-b5e7-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T20:44:53.721860",
+      "updated_at": "2026-02-10T20:46:08.519398",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/a4f6e16c-0686-11f1-b5e7-062dd6ffe3b6",
+        "message_id": 467,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    },
+    {
+      "id": "27b18764-0688-11f1-ae3e-062dd6ffe3b6",
+      "user_id": 1399026277,
+      "status": "success",
+      "url": "https://sociabuzz.com/payment/x/27b18764-0688-11f1-ae3e-062dd6ffe3b6",
+      "method": "qris",
+      "amount": 1000,
+      "message": "Support",
+      "donor_name": "Supporter",
+      "created_at": "2026-02-10T20:55:31.998452",
+      "updated_at": "2026-02-10T20:56:22.591203",
+      "details": {
+        "final_amount": 1007.0,
+        "redirect_url": "https://sociabuzz.com/payment/x/27b18764-0688-11f1-ae3e-062dd6ffe3b6",
+        "message_id": 473,
+        "status": "settlement",
+        "status_code": "200",
+        "message": "Payment Successful"
+      }
+    }
+  ],
+  "user_settings": {
+    "8102190707": {
+      "default_target": "bimaikhsan"
+    },
+    "1399026277": {
+      "use_qris_logo": true
+    }
+  },
+  "global_settings": {
+    "default_target": "bimaikhsan",
+    "bot_info_text": "Versi: 1.2\n✨ Kelebihan Bot:\n✅ Cepat & Otomatis: Verifikasi pembayaran instan 24/7.\n✅ Aman: Menggunakan gateway pembayaran resmi.\n✅ Mudah: Mendukung berbagai metode pembayaran (QRIS, E-Wallet, Bank).\n✅ Real-time: Notifikasi status pembayaran langsung ke chat Anda.\n✅ QRIS: Bisa Membuat logo brand yang terletak ditengah QRIS, cara mengaktifkan logo berada pada Menu Dasboard -> Pengaturan -> ON.\n\n💳 Limit Pembayaran:\n• E-Wallet (GoPay): Min Rp1.000 - Max Rp10.000.000\n• QRIS: Min Rp1.000 - Max Rp5.000.000\n• Virtual Account Bank: Min Rp10.000 - Max Rp50.000.000\n\n🛠 Pengembangan Custom:\nJika Anda ingin membuat program serupa untuk Website, Aplikasi, atau integrasi lainnya, silakan hubungi Admin kami.\n\n📞 Kontak Admin: @nbxid"
+  }
+}
