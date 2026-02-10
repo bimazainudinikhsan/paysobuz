@@ -1,13 +1,13 @@
 {
-  "timestamp": 1770732301.2871468,
+  "timestamp": 1770732809.5168853,
   "balance_info": {
-    "balance": 6650,
+    "balance": 0,
     "total_saldo": 0,
     "success": true,
     "raw_response": {
       "success": true,
       "data": "<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link tabs\" id=\"saldo-tab-btn\" data-toggle=\"tab\" href=\"#saldo-tab\" role=\"tab\"\n\t\t\t\t\taria-controls=\"saldo\" aria-selected=\"true\">Saldo</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link tabs\" id=\"transaction-tab-btn\" data-toggle=\"tab\" href=\"#transaction-tab\" role=\"tab\"\n\t\t\t\t\taria-controls=\"transaction\" aria-selected=\"false\">Transaksi</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item\">\n\t\t\t\t\t<a class=\"nav-link tabs\" id=\"penarikan-tab-btn\" data-toggle=\"tab\" href=\"#penarikan-tab\" role=\"tab\"\n\t\t\t\t\taria-controls=\"penarikan\" aria-selected=\"false\">Penarikan</a>\n\t\t\t\t</li>",
-      "balance": 6650,
+      "balance": 0,
       "totalSaldo": 0
     }
   },
@@ -87,9 +87,15 @@
   },
   "withdrawals": {
     "success": true,
-    "total": 7,
+    "total": 8,
     "limit": 10,
     "data": [
+      {
+        "title": "10 Februari 2026",
+        "date": "Sudah ditransfer (10 Februari 2026)",
+        "amount": "-Rp6.650",
+        "text": "10 Februari 2026 - -Rp6.650"
+      },
       {
         "title": "10 Februari 2026",
         "date": "Sudah ditransfer (10 Februari 2026)",

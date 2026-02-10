@@ -6,6 +6,9 @@ import io
 import threading
 import time
 import logging 
+import http.server
+import socketserver
+import requests
 from colorama import init, Fore, Style
 from src.core.auth import AuthManager
 
@@ -22,6 +25,54 @@ init(autoreset=True)
 
 # Global flag for background monitoring
 MONITORING_ACTIVE = False
+
+def start_health_server():
+    """Starts a simple HTTP server for Render health checks."""
+    port = int(os.environ.get("PORT", 8080))
+    
+    class HealthCheckHandler(http.server.SimpleHTTPRequestHandler):
+        def do_GET(self):
+            self.send_response(200)
+            self.send_header('Content-type', 'text/plain')
+            self.end_headers()
+            self.wfile.write(b"OK")
+        
+        def log_message(self, format, *args):
+            pass  # Silence logs
+
+    def run_server():
+        print(f"{Fore.CYAN}[Health] Starting health check server on port {port}")
+        # Allow reuse address to avoid "Address already in use" errors on restarts
+        socketserver.TCPServer.allow_reuse_address = True
+        try:
+            with socketserver.TCPServer(("", port), HealthCheckHandler) as httpd:
+                httpd.serve_forever()
+        except Exception as e:
+            print(f"{Fore.RED}[Health] Failed to start server: {e}")
+
+    t = threading.Thread(target=run_server, daemon=True)
+    t.start()
+
+def start_keep_alive():
+    """Pings the Render URL periodically to prevent sleeping."""
+    url = os.environ.get("RENDER_EXTERNAL_URL")
+    
+    def ping_loop():
+        if not url:
+            print(f"{Fore.YELLOW}[KeepAlive] No RENDER_EXTERNAL_URL found. Self-ping disabled.")
+            return
+            
+        print(f"{Fore.CYAN}[KeepAlive] Starting keep-alive ping to {url}")
+        while True:
+            time.sleep(60 * 10)  # Ping every 10 minutes
+            try:
+                response = requests.get(url, timeout=10)
+                print(f"{Fore.GREEN}[KeepAlive] Pinged {url} - Status: {response.status_code}")
+            except Exception as e:
+                print(f"{Fore.RED}[KeepAlive] Ping failed: {e}")
+
+    t = threading.Thread(target=ping_loop, daemon=True)
+    t.start()
 
 def monitor_transactions_loop(tm):
     """Background task to save transaction data periodically."""
@@ -238,6 +289,12 @@ def run_cli():
 def run_telegram_bot():
     print(f"\n{Fore.CYAN}Starting Telegram Bot...")
     print(f"{Fore.YELLOW}Make sure you have set TELEGRAM_BOT_TOKEN in .env file.")
+    
+    # Start Health Check Server (Render requirement)
+    start_health_server()
+    
+    # Start Keep-Alive Pinger (Render specific)
+    start_keep_alive()
     
     # Start monitoring thread
     auth = AuthManager()
