@@ -8,8 +8,14 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 class APIManager:
-    def __init__(self, session):
-        self.session = session
+    def __init__(self, session_or_auth):
+        if hasattr(session_or_auth, 'session'):
+            self.auth = session_or_auth
+            self.session = session_or_auth.session
+        else:
+            self.auth = None
+            self.session = session_or_auth
+        
         self.base_url = "https://sociabuzz.com"
         self.debug_mode = False # Default to False (non-active)
         self._setup_logging()
@@ -142,6 +148,16 @@ class APIManager:
         support_page_url = f"{self.base_url}/{username}/tribe"
         print(f"{Fore.CYAN}Fetching CSRF token from {support_page_url}...")
         csrf_token = self._get_csrf_token(support_page_url)
+        
+        # Auto-login fallback if token not found (session expired)
+        if not csrf_token and self.auth:
+            print(f"{Fore.YELLOW}[Auth] CSRF token missing. Checking session validity...")
+            is_valid = self.auth.check_session()
+            if not is_valid:
+                print(f"{Fore.YELLOW}[Auth] Session invalid. Attempting auto-login...")
+                if self.auth.login_headless():
+                    print(f"{Fore.GREEN}[Auth] Relogin success! Retrying CSRF fetch...")
+                    csrf_token = self._get_csrf_token(support_page_url)
         
         if not csrf_token:
             print(f"{Fore.RED}Failed to get CSRF token.")

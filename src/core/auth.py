@@ -8,6 +8,7 @@ import undetected_chromedriver as uc
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from config.settings import Config
 
 # Initialize colorama
 init(autoreset=True)
@@ -93,6 +94,104 @@ class AuthManager:
             if driver:
                 print(f"{Fore.CYAN}Closing browser...")
                 driver.quit()
+
+    def login_headless(self):
+        """
+        Attempts to login automatically using credentials from Config.
+        Runs in headless mode suitable for servers (Render).
+        """
+        if not Config.SOCIABUZZ_EMAIL or not Config.SOCIABUZZ_PASSWORD:
+            print(f"{Fore.RED}Auto-login failed: Missing SOCIABUZZ_EMAIL or SOCIABUZZ_PASSWORD in .env")
+            return False
+
+        print(f"{Fore.YELLOW}Attempting auto-login (headless)...")
+        
+        options = uc.ChromeOptions()
+        options.add_argument("--headless=new") # Modern headless mode
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--no-first-run")
+        options.add_argument("--no-service-autorun")
+        options.add_argument("--password-store=basic")
+        
+        driver = None
+        try:
+            # version_main=144 ensures it uses the driver compatible with Chrome 144
+            driver = uc.Chrome(options=options, use_subprocess=True, version_main=144)
+            
+            print(f"{Fore.CYAN}Navigating to login page...")
+            driver.get("https://sociabuzz.com/pro/login")
+            
+            # Wait for email field
+            wait = WebDriverWait(driver, 20)
+            email_field = wait.until(EC.presence_of_element_located((By.NAME, "email")))
+            
+            print(f"{Fore.CYAN}Entering credentials...")
+            email_field.clear()
+            email_field.send_keys(Config.SOCIABUZZ_EMAIL)
+            
+            password_field = driver.find_element(By.NAME, "password")
+            password_field.clear()
+            password_field.send_keys(Config.SOCIABUZZ_PASSWORD)
+            
+            # Click login button
+            # Usually it's a button with type="submit" or specific class
+            try:
+                submit_btn = driver.find_element(By.CSS_SELECTOR, "button[type='submit']")
+                submit_btn.click()
+            except:
+                # Fallback: press enter on password field
+                password_field.submit()
+            
+            print(f"{Fore.YELLOW}Waiting for redirection...")
+            
+            # Wait for dashboard or successful login indicator
+            # We wait up to 60 seconds
+            max_wait = 60
+            start_time = time.time()
+            success = False
+            
+            while time.time() - start_time < max_wait:
+                current_url = driver.current_url
+                if any(k in current_url for k in ["dashboard", "/pro", "/client", "mylink"]) and "login" not in current_url:
+                    success = True
+                    break
+                
+                # Check for error messages
+                try:
+                    error_el = driver.find_element(By.CLASS_NAME, "alert-danger")
+                    if error_el:
+                        print(f"{Fore.RED}Login Error: {error_el.text}")
+                        break
+                except:
+                    pass
+                    
+                time.sleep(1)
+            
+            if success:
+                print(f"{Fore.GREEN}Auto-login successful!")
+                # Get cookies from Selenium
+                selenium_cookies = driver.get_cookies()
+                # Update requests session cookies
+                self._update_session_cookies(selenium_cookies)
+                # Save to file
+                self.save_cookies()
+                return True
+            else:
+                print(f"{Fore.RED}Auto-login timed out. URL: {driver.current_url}")
+                return False
+
+        except Exception as e:
+            print(f"{Fore.RED}Auto-login failed: {e}")
+            return False
+        finally:
+            if driver:
+                try:
+                    driver.quit()
+                except:
+                    pass
 
     def sniff_api_traffic(self):
         """

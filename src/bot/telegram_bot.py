@@ -25,7 +25,7 @@ logging.basicConfig(
 class SocialBuzzBot:
     def __init__(self):
         self.auth = AuthManager()
-        self.api = APIManager(self.auth.session)
+        self.api = APIManager(self.auth) # Pass AuthManager directly
         self.tm = TransactionManager(self.auth)
         self.db = PaymentDatabase()
         self.monitoring_task = None
